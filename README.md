@@ -9,11 +9,11 @@ To run the app locally, make sure you have Flutter installed on your system. The
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/zelda-totk-cooking-guide.git
+   git clone git@github.com:Castersen/TOTK-Cooking-Guide.git
 
 2. Navigate to the project directory:
     ```bash
-    cd zelda-totk-cooking-guide
+    cd TOTK-Cooking-Guide
 
 3. Install the dependencies
     ```bash
