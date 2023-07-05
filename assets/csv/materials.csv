@@ -1,0 +1,931 @@
+Name,Inventory Icon,Caption,Hearts Recovered,Cooking Effect,Cooking Effect Level,Cooking Effect Duration (Raw),Cooking Effect Time Boost Duration (Raw),Cooking Effect Time Boost Success Rate,Sell Price,Buy Price (Rupees),Buy Price (Poes),Dye Color,ReuseCoolTime,ReuseInitCoolTime,Cooking Tag 1,Cooking Tag 2,Cooking Tag 3,Cooking Tag (Custom),Cooking Tag (Custom) 2,ActorName,MaterialCategory
+Golden Apple,,"A rare, very sweet fruit that seems to have an
+extra sparkle to it. Sometimes found near
+normal apples.",1.5,-,-,900,20,100%,8,32,-,Yellow,,, CookFruit,-,-,Dessert Fruit,Apple or Wildberry,Item_Fruit_P,Fruit
+Palm Fruit,,"Fruit from palm trees that grow near the
+ocean. It doesn't offer any special effects
+but will increase your heart recovery
+when used as an ingredient.",1,-,-,900,-,-,4,16,-,Light Yellow,,, CookFruit,-,-,Dessert Fruit,-,Item_Fruit_G,Fruit
+Hylian Tomato,,"A fruit found widely from cold areas to warm
+climates. Full of nutrition, and kind of trendy
+lately. Use it in cooking to recover more
+hearts.",1,-,-,900,-,-,4,16,-,Orange,,, CookFruit,-,-,-,-,Item_Fruit_M,Fruit
+Apple,,"A common fruit eaten by people since ancient
+times. Eat it fresh, or cook it to increase
+its effect.",0.5,-,-,900,-,-,3,12,-,Red,,, CookFruit,-,-,Dessert Fruit,Apple or Wildberry,Item_Fruit_A,Fruit
+Wildberry,,"A fruit that grows in cold, snowy regions
+known for its tangy, sweet flavor. It doesn't
+offer any special effects, but it's a popular
+cooking ingredient.",0.5,-,-,900,-,-,3,12,-,Peach,,, CookFruit,-,-,Dessert Fruit,Apple or Wildberry,Item_Fruit_B,Fruit
+Voltfruit,,"Cacti found in the Gerudo Desert bear this
+sweet fruit. It's naturally insulated, so when
+cooked into a dish, it provides resistance
+against electricity.",0.5,ResistElectric,1,900,-,-,4,16,-,Orange,,, CookFruit,-,-,Dessert Fruit,-,Item_Fruit_C,Fruit
+Fleet-Lotus Seeds,,"The plant that bears these seeds grows near
+deep water. The roots draw nutrients from the
+water, which boosts your movement speed
+when the seeds are cooked into a dish.",0.5,AllSpeed,2,900,-,-,5,20,-,Green,,, CookFruit,-,-,-,-,Item_Fruit_E,Fruit
+Hydromelon,,"This resilient fruit can flourish even in the
+heat of the desert. The hydrating liquid
+inside provides a cooling effect that, when
+cooked, increases your heat resistance.",0.5,ResistHot,1,900,-,-,4,16,-,Green,,, CookFruit,-,-,Dessert Fruit,-,Item_Fruit_F,Fruit
+Mighty Bananas,,"This fruit grows mainly in tropical forests
+of the Faron region. When it's used as an
+ingredient, the resulting dish will temporarily
+increase your attack power.",0.5,AttackUp,2,900,-,-,5,20,-,Yellow,,, CookFruit,-,-,Dessert Fruit,-,Item_Fruit_H,Fruit
+Spicy Pepper,,"This pepper is exploding with spice.
+Cook with it to create dishes that
+will raise your body temperature and
+help you withstand the cold.",0.5,ResistCold,1,900,-,-,3,12,-,Red,,, CookFruit,-,-,-,-,Item_Fruit_I,Fruit
+Fire Fruit,,"A fruit that generates heat when struck.
+Cooked correctly, its heating properties
+improve blood flow and stimulate muscles to
+raise attack power in high temperatures.",0.25,AttackUpHot,1,900,-,-,3,12,-,Red,,, CookFruit,-,-,-,-,FireFruit,Fruit
+Ice Fruit,,"A fruit that generates cold when struck.
+Cooked correctly, it gives off an effect that
+strengthens muscles and increases attack
+power in cold temperatures.",0.25,AttackUpCold,1,900,-,-,3,12,-,White,,, CookFruit,-,-,-,-,IceFruit,Fruit
+Shock Fruit,,"When cooked correctly, this shockingly tasty
+fruit stimulates the consumer's muscles and
+grants increased attack power during
+thunderstorms.",0.25,AttackUpThunderstorm,1,900,-,-,3,12,-,Yellow,,, CookFruit,-,-,-,-,ElectricalFruit,Fruit
+Splash Fruit,,"A fruit that contains pressurized water.
+Cooking it brings out its ability to enhance
+swim speed when ingested.",0.25,SwimSpeedUp,1,900,-,-,2,10,-,Light Blue,,, CookFruit,-,-,-,-,WaterFruit,Fruit
+Dazzlefruit,,"A fruit charged with powerful light. Break it to
+unleash dazzling sparkles that blind any
+monsters nearby.",0.25,-,1,900,-,-,5,20,-,Yellow,,, CookFruit,-,-,-,-,LightFruit,Fruit
+Bomb Flower,,"A dangerous flower that contains explosive
+elements. Does not mix well with fire or
+electricity, unless the goal is to blow
+things up.",-,-,-,-,-,-,10,40,16,Blue,,, CookForeign,-,-,-,-,BombFruit,Fruit
+Puffshroom,,"A mushroom that spreads a cloud of fine
+spores when a stimulus is applied. The bitter
+powder makes them inedible.",-,-,-,-,-,-,10,40,16,Brown,,, CookForeign,-,-,-,-,SmokeFruit,Fruit
+Muddle Bud,,"A wildflower with a powerful odor that can
+disorient and confuse, making it difficult to
+tell friend from foe.",-,-,-,-,-,-,10,40,16,Purple,300,120, CookForeign,-,-,-,-,ConfusionFruit,Fruit
+Big Hearty Truffle,,"Years of going unpicked have allowed this
+hearty truffle to grow quite large. When
+cooked into a dish, it'll restore all hearts and
+temporarily increase your maximum hearts.",3,LifeMaxUp,16,-,-,-,25,100,-,Black,,, CookMushroom,-,-,-,-,Item_Mushroom_N,Mushroom
+Hearty Truffle,,"This rare mushroom has a rich scent.
+It'll restore all your hearts and temporarily
+increase your maximum hearts when used in
+cooking.",2,LifeMaxUp,4,-,-,-,20,80,-,Black,,, CookMushroom,-,-,-,-,Item_Mushroom_F,Mushroom
+Endura Shroom,,"A rare yellowish-orange mushroom. Cook it
+before eating to temporarily increase your
+stamina limit.",1,ExStaminaMaxUp,1,900,-,-,15,60,-,Orange,,, CookMushroom,-,-,-,-,Item_Mushroom_O,Mushroom
+Rushroom,,"A mushroom that can grow almost anywhere
+but prefers ceilings and sheer cliffs. Cook it
+before eating to temporarily increase your
+movement speed.",0.5,AllSpeed,1,900,-,-,3,12,-,Purple,,, CookMushroom,-,-,-,-,Item_MushroomGet_D,Mushroom
+Brightcap,,"A mushroom that grows in caves and contains
+luminescent enzymes. Cook it into a dish to
+give a glowing effect to anyone who eats it.",0.5,LightEmission,1,900,-,-,4,16,-,Light Yellow,,, CookMushroom,-,-,-,-,Item_MushroomGet_K,Mushroom
+Stamella Shroom,,"A nutritious mushroom chock-full of natural
+energy. Cook it to release its stamina-
+restoration properties.",0.5,StaminaRecover,1,900,-,-,5,20,-,Green,,, CookMushroom,-,-,-,-,Item_Mushroom_A,Mushroom
+Chillshroom,,"Often found at the base of pine trees in cold
+climates, these mushrooms are cool to the
+touch and can be used to cook dishes that
+allow you to stay cool even in arid regions.",0.5,ResistHot,2,900,-,-,4,16,-,Blue,,, CookMushroom,-,-,-,-,Item_Mushroom_B,Mushroom
+Sunshroom,,"A bright-red mushroom that grows in hot
+climates. Imbued with the power of heat, 
+it can be used to cook dishes that will
+allow you to endure the bitter cold.",0.5,ResistCold,2,900,-,-,4,16,-,Red,,, CookMushroom,-,-,-,-,Item_Mushroom_C,Mushroom
+Hylian Shroom,,"A common mushroom found near trees
+around Hyrule. Eat it to restore half a heart.",0.5,-,-,-,-,-,3,12,-,Red,,, CookMushroom,-,-,-,-,Item_Mushroom_E,Mushroom
+Zapshroom,,"This mushroom grows wild in the Gerudo
+region. The cap is naturally insulated, so
+when used in cooking, it will offer protection
+against electricity.",0.5,ResistElectric,2,900,-,-,4,16,-,Yellow,,, CookMushroom,-,-,-,-,Item_Mushroom_H,Mushroom
+Silent Shroom,,"A strange mushroom that glows softly in
+the forest at night. Cooking it into a dish
+unlocks the nutrients in its cap, resulting in
+a meal that will allow you to move stealthily.",0.5,QuietnessUp,2,900,-,-,3,12,-,Light Blue,,, CookMushroom,-,-,-,-,Item_Mushroom_J,Mushroom
+Razorshroom,,"This mushroom is known for the natural slice
+in its cap. Eating it fosters your competitive
+spirit. Use it when cooking to prepare a dish
+that will increase your strength.",0.5,AttackUp,2,900,-,-,5,20,-,Crimson,,, CookMushroom,-,-,-,-,Item_Mushroom_L,Mushroom
+Ironshroom,,"The cap of this mushroom is very hard.
+Use it when cooking to prepare a dish
+that increases your defense.",0.5,DefenseUp,2,900,-,-,5,20,-,Brown,,, CookMushroom,-,-,-,-,Item_Mushroom_M,Mushroom
+Skyshroom,,"A common mushroom that grows near trees
+on sky islands. Eat it to restore health.",0.25,-,-,-,-,-,3,12,-,Light Blue,,, CookMushroom,-,-,-,-,Item_Mushroom_P,Mushroom
+Big Hearty Radish,,"This hearty radish is much larger than the
+average radish. When cooked into a dish, it
+restores all your hearts and temporarily
+increases your maximum hearts.",4,LifeMaxUp,20,-,-,-,25,100,-,Peach,,, CookPlant,-,-,Radish,-,Item_PlantGet_C,Plant
+Hearty Radish,,"A rare radish that grows best in sunny plains.
+Cook it before eating to restore all your hearts
+and temporarily increase your maximum
+hearts.",2.5,LifeMaxUp,12,-,-,-,20,80,-,Peach,,, CookPlant,-,-,Radish,-,Item_PlantGet_B,Plant
+Endura Carrot,,"Highly valued as a medicinal plant, this
+carrot contains large amounts of nourishing
+energy. When cooked into a dish, it boosts
+your stamina beyond its maximum limit.",2,ExStaminaMaxUp,4,300,-,-,20,80,-,Light Yellow,,, CookPlant,-,-,Pumpkin or Carrot,Carrot,Item_PlantGet_Q,Plant
+Hyrule Herb,,"This healthy herb has not changed since
+ancient times. Cook it before eating to
+increase the number of hearts it restores.",1,-,-,-,-,-,3,12,-,Green,,, CookPlant,-,-,-,-,Item_PlantGet_A,Plant
+Silent Princess,,"This lovely flower was said to have been a
+favorite of the princess of Hyrule. They were
+once feared to have gone extinct, but it's not
+uncommon to spot them growing in the wild.",-,QuietnessUp,3,1200,-,-,10,30,-,White,,, CookPlant,-,-,-,-,Item_PlantGet_J,Plant
+Fortified Pumpkin,,"An extremely tough pumpkin raised for food.
+When cooked, that toughness manifests itself
+by considerably upping defense.",0.5,DefenseUp,2,900,-,-,5,20,-,Orange,,, CookPlant,-,-,Pumpkin or Carrot,Pumpkin,Item_Fruit_J,Plant
+Sun Pumpkin,,"A new variety of pumpkin that soaks up the
+sunshine in Hateno Village. Baked into a dish,
+it can help heal the effects of exposure
+to gloom.",0.5,LifeRepair,4,900,-,-,5,20,-,Green,,, CookPlant,-,-,Pumpkin or Carrot,Pumpkin,Item_Fruit_N,Plant
+Swift Carrot,,"This carrot is cultivated extensively in villages.
+It strengthens the legs and hips when cooked
+into a dish, which helps increase your
+movement speed.",0.5,AllSpeed,1,300,-,-,4,16,-,Orange,,, CookPlant,-,-,Pumpkin or Carrot,Carrot,Item_PlantGet_M,Plant
+Stambulb,,"A wild plant with bulging roots often found in
+cooler climates. It contains nutrients that
+increase endurance. Cook it to restore
+stamina.",0.5,StaminaRecover,1,-,-,-,4,16,-,Light Yellow,,, CookPlant,-,-,-,-,Item_PlantGet_S,Plant
+Korok Frond,,"A mysterious leaf that looks like it might be
+hiding something behind it. It has some
+medicinal value. Attach it to a stick and it
+can be used as a fan.",0.25,-,-,-,-,-,3,12,-,Green,,, CookPlant,-,-,-,-,Item_PlantGet_U,Plant
+Cool Safflina,,"This medicinal plant grows in high elevations,
+such as mountains in the Hebra or Gerudo
+regions. When cooked into a dish, it will
+temporarily increase your heat resistance.",0,ResistHot,1,900,-,-,3,12,-,Light Blue,,, CookPlant,-,-,-,-,Item_PlantGet_E,Plant
+Warm Safflina,,"This medicinal plant grows in hot regions,
+such as the Gerudo Desert. It's warm to the
+touch and increases your cold resistance
+when cooked into a dish.",0,ResistCold,1,900,-,-,3,12,-,Orange,,, CookPlant,-,-,-,-,Item_PlantGet_F,Plant
+Mighty Thistle,,"This medicinal plant is known for its sharp
+thorns and for the fruit it bears. The fruit
+contains a compound that increases attack
+power when cooked into a dish.",0,AttackUp,1,900,-,-,5,20,-,Orange,,, CookPlant,-,-,-,-,Item_PlantGet_G,Plant
+Armoranth,,"This tough medicinal plant cannot be
+broken, but it can be cooked. Its
+durable yet flexible fibers raise your
+defense when cooked into a dish.",0,DefenseUp,1,900,-,-,5,20,-,Purple,,, CookPlant,-,-,-,-,Item_PlantGet_H,Plant
+Blue Nightshade,,"A plant that grows in quieter areas of Hyrule.
+At night, it gives off a soft glow.
+Cook with it to increase your stealth.",0,QuietnessUp,1,900,-,-,4,16,-,Blue,,, CookPlant,-,-,-,-,Item_PlantGet_I,Plant
+Electric Safflina,,"This medicinal plant grows abundantly in the
+Gerudo Desert. Its peculiar fibers conduct
+electricity, which will increase your electricity
+resistance when cooked into a dish.",0,ResistElectric,1,900,-,-,3,12,-,Light Yellow,,, CookPlant,-,-,-,-,Item_PlantGet_L,Plant
+Swift Violet,,"This vitality-rich flower blooms mainly on
+cliffsides. When cooked into a dish, the
+nourishing compounds increase your
+movement speed.",0,AllSpeed,2,900,-,-,10,40,-,Purple,,, CookPlant,-,-,-,-,Item_PlantGet_O,Plant
+Sundelion,,"A wild plant that grows in the sun at high
+altitudes. Soaked in sunlight, its petals can
+restore health depleted by gloom when used
+in cooking.",0,LifeRepair,12,-,-,-,8,32,-,Yellow,,, CookPlant,-,-,-,-,Item_PlantGet_R,Plant
+Raw Gourmet Meat,,"This prized cut of meat is usually from a large
+animal. Any connoisseur would rank this
+tender, juicy cut of meat ""gourmet."" Expect
+an exquisite meal when cooking with this.",3,-,-,-,-,-,35,140,-,-,,, CookMeat,-,-,Tier 3 Meat,-,Item_Meat_11,Meat
+Raw Whole Bird,,"This prized meat can be obtained from
+certain birds. It gets full points for flavor,
+nutrition, and volume. It pairs perfectly with
+other ingredients or can be enjoyed alone.",3,-,-,-,-,-,35,140,-,-,,, CookMeat,-,-,Tier 3 Meat,-,Item_Meat_12,Meat
+Raw Prime Meat,,"A fresh, high-quality piece of animal meat.
+This stuff isn't easy to come by, so savor it.
+Cook it to recover more hearts.",1.5,-,-,-,-,-,15,60,-,-,,, CookMeat,-,-,Tier 2 Meat,-,Item_Meat_02,Meat
+Raw Bird Thigh,,"A high-quality piece of meat that's hard to
+come by. You can eat it raw, but cooking it
+first will recover more hearts.",1.5,-,-,-,-,-,15,60,-,-,,, CookMeat,-,-,Tier 2 Meat,-,Item_Meat_07,Meat
+Raw Meat,,"Meat obtained from animals in plains and
+forests. You can eat it raw, but cooking it will
+make it more delicious and nutritious.",1,-,-,-,-,-,8,32,-,-,,, CookMeat,-,-,Tier 1 Meat,-,Item_Meat_01,Meat
+Raw Bird Drumstick,,"This meat is tougher and chewier than a
+standard steak. Tastes better cooked.",1,-,-,-,-,-,8,32,-,-,,, CookMeat,-,-,Tier 1 Meat,-,Item_Meat_06,Meat
+Courser Bee Honey,,"Honey straight from the hive is chock-full of
+nutrients. Cooking this into a meal unlocks
+the potential of these nutrients and provides
+a stamina-recovery effect.",2,StaminaRecover,2,-,-,-,10,40,-,Orange,,, CookSpice,-,-,-,-,BeeHome,Boost
+Hylian Rice,,"This grain is a favorite among residents of
+Kakariko Village. It's grown in regions with a
+lot of water and is quite versatile. Used as an
+ingredient in things like risotto and rice balls.",1,-,-,-,30,-,3,12,-,White,,, CookSpice,-,-,-,-,Item_Material_03,Boost
+Bird Egg,,"A fresh bird egg necessary for making dishes
+such as omelets and crepes. You can snag
+them from birds' nests if you're sneaky.
+Nutritious and delicious, perfect for cooking.",1,-,-,-,60,10%,3,12,-,Yellow,,, CookSpice,-,-,-,-,Item_Material_04,Boost
+Tabantha Wheat,,"This grain is cultivated extensively on the
+Tabantha Plains. It's ground finely with a
+millstone to be used in cooking. Use it to
+make things such as stews and breads.",1,-,-,-,30,-,3,12,-,Light Yellow,,, CookSpice,-,-,-,-,Item_Material_07,Boost
+Hateno Cheese,,"A cheese made from Hateno cow's milk.
+Add it to a warm dish, and enjoy its rich flavor
+and melty texture.",1,-,-,-,50,10%,5,20,-,Light Yellow,,, CookSpice,-,-,-,-,Item_Material_10,Boost
+Fresh Milk,,"This fresh milk comes from Hateno-bred cows
+and white goats from all across Hyrule. It's
+delicious on its own, but can be used in
+soups and stews too.",0.5,-,-,-,50,-,3,12,-,White,,, CookSpice,-,-,-,-,Item_Material_05,Boost
+Acorn,,"Often found on the ground near trees.
+Squirrels adore this nut, so you may have
+competition while foraging. Add one to a
+meal for a nutty seasoning.",0.25,-,-,-,20,-,2,8,-,Brown,,, CookSpice,-,-,Nut,-,Item_Fruit_K,Boost
+Chickaloo Tree Nut,,"Small birds love this nut. You can eat it raw
+for a minor effect, but it can also be added
+as a spice to other recipes.",0.25,-,-,-,10,-,3,12,-,Crimson,,, CookSpice,-,-,Nut,-,Item_Fruit_L,Boost
+Cane Sugar,,"When boiled with other ingredients, the cane
+breaks down into a sweet juice necessary
+for making cakes and other sweets. It's
+commonly found in ingredients stores.",0,-,-,-,50,30%,3,12,-,Green,,, CookSpice,-,-,-,-,Item_Material_01,Boost
+Goron Spice,,"Made from several types of spices, this
+secret Goron seasoning has been handed
+down for generations. An initial wave of
+spiciness paves the way for the sweetness.",0,-,1,-,60,10%,4,16,-,Crimson,,, CookSpice,-,-,-,-,Item_Material_02,Boost
+Goat Butter,,"Butter made from the milk of a domesticated
+white goat. In addition to being used in
+dishes like stews and meunière, it's often
+used when making cakes and other sweets.",0,-,-,-,50,10%,3,12,-,Light Yellow,,, CookSpice,-,-,-,-,Item_Material_06,Boost
+Monster Extract,,"A result of Kilton's research into monsters,
+this suspicious spice can be used to punch
+up dishes while cooking. Apparently it can be
+used to make a number of monstrous meals.",0,-,-,-,-,-,12,50,-,Purple,,, CookSpice,-,-,-,-,Item_Material_08,Boost
+Oil Jar,,"A mild oil extracted from plant seeds, it's very
+versatile in cooking and can coax flavors from
+ingredients used in many dishes. Also good
+for adding fuel to fire.",0,-,-,-,50,10%,3,12,-,Light Yellow,,, CookSpice,-,-,-,-,Item_Material_09,Boost
+Dark Clump,,"An unusual substance, it's cold to the touch,
+and it seems as though it's filled with pitch-
+black darkness. Use it in cooking to get a
+gloom-resistant effect.",0,MiasmaGuard,1,900,-,-,5,20,10,Purple,,, CookSpice,-,-,-,-,Item_Material_11,Boost
+Rock Salt,,"Crystallized salt from the ancient sea
+commonly used to season meals. 
+Cannot be eaten in this form.",-,-,-,-,30,-,2,12,-,Peach,,, CookSpice,-,-,-,-,Item_Ore_H,Boost
+Star Fragment,,"A mysterious stone fragment that fell from the
+sky. Its gem-like quality makes it highly
+valuable. One theory is that it has the power
+to light up its environment.",-,-,-,-,60,100%,200,800,-,White,,, CookLowPrice, CookSpice,-,-,-,Item_Ore_J,Boost
+Hearty Salmon,,"This fish makes its home in cold water, giving
+it extra layers of fat. It'll restore all your hearts
+and temporarily increase your maximum
+hearts when used in cooking.",4,LifeMaxUp,16,-,-,-,20,80,-,-,-,-, CookFish,-,-,-,-,Item_FishGet_I,Fish
+Hearty Bass,,"This large fish lives near the water's edge.
+Its sizable body can store a lot of nutrients.
+When used in cooking, it'll restore all your
+hearts and increase your maximum hearts.",2,LifeMaxUp,8,-,-,-,18,72,-,-,-,-, CookFish,-,-,-,-,Item_FishGet_B,Fish
+Hyrule Bass,,"An ordinary fish that hasn't changed for
+ages. It can be eaten raw, but cooking
+it amplifies its healing benefits.",1,-,-,-,-,-,6,24,-,-,-,-, CookFish,-,-,Bass,-,Item_FishGet_A,Fish
+Staminoka Bass,,"This Hyrule bass got to be the biggest fish
+by never getting caught (until now). Its long
+life results in a cooked dish that will restore
+a lot of stamina.",1,StaminaRecover,4,-,-,-,18,72,-,-,-,-, CookFish,-,-,Bass,-,Item_FishGet_L,Fish
+Chillfin Trout,,"This blue trout prefers cold bodies of water.
+Its skin contains enzymes that keep its body
+cool, and when cooked into a dish, it will
+temporarily boost your heat resistance.",1,ResistHot,3,900,-,-,6,24,-,-,-,-, CookFish,-,-,Trout,-,Item_FishGet_C,Fish
+Sizzlefin Trout,,"This red trout prefers warm bodies of water.
+It has a special organ specifically for storing
+heat. When cooked into a dish, it temporarily
+boosts your resistance to the cold.",1,ResistCold,3,900,-,-,6,24,-,-,-,-, CookFish,-,-,Trout,-,Item_FishGet_J,Fish
+Voltfin Trout,,"This trout makes its home in the freshwater
+lakes. Its scales have an insulating
+compound that, when cooked into a dish,
+offers resistance to electricity.",1,ResistElectric,3,900,-,-,6,24,-,-,-,-, CookFish,-,-,Trout,-,Item_FishGet_D,Fish
+Stealthfin Trout,,"Consuming the bioluminescent compound
+that makes this fish glow in the dark will
+increase concentration. Dishes cooked
+with it will suppress noise when consumed.",1,QuietnessUp,2,900,-,-,10,40,-,-,-,-, CookFish,-,-,Trout,-,Item_FishGet_X,Fish
+Mighty Carp,,"This freshwater fish lives alongside its less
+mighty carp ilk. A compound in its liver
+promotes muscle growth. Dishes cooked with
+it will temporarily increase your attack power.",1,AttackUp,2,900,-,-,10,40,-,-,-,-, CookFish,-,-,Carp,-,Item_FishGet_E,Fish
+Armored Carp,,"Calcium deposits in the scales of this ancient
+fish make them as hard as armor. Cooking it
+into a dish will fortify your bones, temporarily
+increasing your defense.",1,DefenseUp,2,900,-,-,10,40,-,-,-,-, CookFish,-,-,Carp,-,Item_FishGet_H,Fish
+Sanke Carp,,"This wild armored carp has been bred into
+a prizewinning fish. Its beautifully colored
+markings do not occur in nature. It offers
+no special effects when cooked.",1,-,-,900,-,-,20,80,-,-,-,-, CookFish,-,-,Carp,-,Item_FishGet_Z,Fish
+Ancient Arowana,,"A lively fish that hasn't changed much since
+ancient times. Its nutritious meat can restore
+a bit of health.",1,-,-,-,-,-,6,24,-,-,-,-, CookFish,-,-,-,-,Item_FishGet_AA,Fish
+Glowing Cave Fish,,"A luminous fish that lives in dark caves. When
+consumed, its light enzyme can make one's
+body glow.",1,LightEmission,2,900,-,-,6,24,-,-,-,-, CookFish,-,-,-,-,Item_FishGet_AC,Fish
+Mighty Porgy,,"This ocean-dwelling fish comes with one rude
+attitude. The compounds in its flesh elevate
+your competitive spirit when it's cooked into
+a dish, thus increasing your attack power.",1,AttackUp,3,900,-,-,10,40,-,-,-,-, CookFish,-,-,Porgy,-,Item_FishGet_F,Fish
+Armored Porgy,,"This porgy's body is covered in armor-hard
+scales. The compounds in its scales, when
+cooked into a dish, fortify your bones and
+temporarily boost your defense.",1,DefenseUp,3,900,-,-,10,40,-,-,-,-, CookFish,-,-,Porgy,-,Item_FishGet_G,Fish
+Sneaky River Snail,,"This large, glow-in-the-dark snail lives in
+fresh water. When cooked into a dish, it
+heightens your senses so you can move
+about silently.",1,QuietnessUp,1,900,-,-,6,24,-,-,-,-, CookFish,-,-,Seafood,-,Item_FishGet_M,Fish
+Razorclaw Crab,,"This crab is well known for its exceptionally
+sharp pincers. When cooked, the strength
+compound in its claws will increase your
+attack power.",1,AttackUp,2,900,-,-,8,32,-,-,-,-, CookFish,-,-,Seafood,Crab,Item_InsectGet_K,Fish
+Ironshell Crab,,"This crab's shell is particularly hard. When
+cooked into a dish, its fat and meat bolster
+the body to increase your defense.",1,DefenseUp,2,900,-,-,8,32,-,-,-,-, CookFish,-,-,Seafood,Crab,Item_InsectGet_O,Fish
+Bright-Eyed Crab,,"This crab appears in large numbers when it
+rains. One bite of its delectable meat, and
+you'll forget all your exhaustion. Replenishes
+your stamina when cooked into a dish.",1,StaminaRecover,2,-,-,-,8,32,-,-,-,-, CookFish,-,-,Seafood,Crab,Item_InsectGet_Z,Fish
+Fairy,,"This fairy will fly from your pouch and heal
+you the moment you lose your last heart.
+It's easily mistaken for a firefly at first, but
+it glows in the daylight as well as night.",5,-,-,-,-,-,2,-,-,-,-,-, CookOther,-,-,-,-,Animal_Insect_F,Fairy
+Winterwing Butterfly,,"The powdery scales of this butterfly's wings
+cool the air near it. Watching it flutter around
+snowflakes is a thing of beauty. Cook it with
+monster parts for a heat-resistance elixir.",-,ResistHot,1,900,-,-,2,-,-,Blue,-,-, CookInsect,-,-,-,-,Animal_Insect_N,Insect
+Summerwing Butterfly,,"A butterfly found in the woods and plains of
+warm regions. Its wings absorb the warmth of
+the sun. Cook it with monster parts to create
+an elixir that makes you feel warm and fuzzy.",-,ResistCold,1,900,-,-,2,-,-,Red,-,-, CookInsect,-,-,-,-,Animal_Insect_Q,Insect
+Thunderwing Butterfly,,"This rare butterfly only shows itself when it
+rains. The organs in its body produce an
+insulating compound. When made into
+an elixir, it offers electrical resistance.",-,ResistElectric,1,900,-,-,2,-,-,Yellow,-,-, CookInsect,-,-,-,-,Animal_Insect_R,Insect
+Smotherwing Butterfly,,"This rare butterfly lives in volcanic regions.
+Its body contains a heat-resistant liquid,
+which can be turned into a topical elixir
+that offers resistance to flames.",-,ResistBurn,2,900,-,-,2,-,-,Gray,-,-, CookInsect,-,-,-,-,Animal_Insect_AB,Insect
+Cold Darner,,"This dragonfly prefers the cool shade of
+trees to the warmth of the sun. Its wings
+disperse heat from its body, which can be
+cooked into a heat-resistance elixir.",-,ResistHot,2,900,-,-,2,-,-,Blue,-,-, CookInsect,-,-,-,-,Animal_Insect_C,Insect
+Warm Darner,,"This dragonfly has a special organ that
+causes it to sweat profusely. Cook it with
+monster parts for an elixir that will raise your
+core temperature so you can resist the cold.",-,ResistCold,2,900,-,-,2,-,-,Red,-,-, CookInsect,-,-,-,-,Animal_Insect_T,Insect
+Electric Darner,,"This rare dragonfly only appears in the rain.
+Its wings direct electricity away from its body.
+Cook it with monster parts for an electricity-
+resistance elixir.",-,ResistElectric,2,900,-,-,2,-,-,Yellow,-,-, CookInsect,-,-,-,-,Animal_Insect_I,Insect
+Energetic Rhino Beetle,,"This valuable beetle can live up to 10
+years. When cooked with monster parts,
+its impressive vitality translates into an
+elixir that will greatly restore your stamina.",-,StaminaRecover,6,900,-,-,30,-,-,Yellow,-,-, CookInsect,-,-,-,-,Animal_Insect_AA,Insect
+Bladed Rhino Beetle,,"This beetle's razor-sharp horns demand that
+you handle it with care. Boil the horns
+alongside monster parts to concoct an elixir
+that will raise your attack power.",-,AttackUp,1,900,-,-,4,-,-,Navy,-,-, CookInsect,-,-,-,-,Animal_Insect_G,Insect
+Rugged Rhino Beetle,,"This beetle's hard body resembles armor.
+When the shell is cooked with monster parts,
+the resulting elixir boosts your defense.",-,DefenseUp,1,900,-,-,4,-,-,Green,-,-, CookInsect,-,-,-,-,Animal_Insect_P,Insect
+Sunset Firefly,,"This firefly glows gently in the dark. When
+cooked with monster parts, the compound
+that causes it to glow results in an elixir that
+will allow you to move more quietly.",-,QuietnessUp,1,900,-,-,2,-,-,Purple,-,-, CookInsect,-,-,-,-,Animal_Insect_E,Insect
+Deep Firefly,,"A multi-winged insect that lives in the Depths.
+It excretes luminescent elements that can be
+cooked into an elixir, which will add a faint
+glow to anyone who consumes it.",-,LightEmission,2,900,-,-,2,-,-,Brown,-,-, CookInsect,-,-,-,-,Animal_Insect_AI,Insect
+Restless Cricket,,"A very energetic cricket. Cook it
+with monster parts to create a
+stamina-recovery elixir.",-,StaminaRecover,1,900,-,-,2,-,-,Green,-,-, CookInsect,-,-,-,-,Animal_Insect_H,Insect
+Tireless Frog,,"This rare frog prefers dark and moist places.
+When cooked with monster parts, the elixir
+it produces will temporarily increase your
+maximum stamina.",2,ExStaminaMaxUp,2,-,-,-,20,-,-,Crimson,-,-, CookInsect,-,-,-,-,Animal_Insect_B,Frog
+Hot-Footed Frog,,"A quick frog that can be found
+hopping around near water. Cook it with
+monster parts to draw out its speed-boost
+effect.",-,AllSpeed,2,900,-,-,2,-,-,Green,-,-, CookInsect,-,-,-,-,Animal_Insect_A,Frog
+Sticky Frog,,"This frog likes to cling to walls and hang out.
+It oozes a substance that climbers can use
+to cling to wet surfaces.",-,NotSlippy,2,900,-,-,10,-,-,Blue,-,-, CookInsect,-,-,-,-,Animal_Insect_AG,Frog
+Hearty Lizard,,"This rare lizard lives deep in the forests. It
+feeds on high-nutrient foods, giving it great
+vitality. When used to make elixirs, they
+temporarily increase your maximum hearts.",4,LifeMaxUp,16,900,-,-,20,-,-,Blue,-,-, CookInsect,-,-,-,-,Animal_Insect_M,Lizard
+Hightail Lizard,,"A lizard found throughout Hyrule. It's a bit
+slow to react at times, but if given a chance
+to escape, it will dart off quickly. Cook it with
+monster parts for a speed-boosting elixir.",-,AllSpeed,1,900,-,-,2,-,-,Brown,-,-, CookInsect,-,-,-,-,Animal_Insect_S,Lizard
+Fireproof Lizard,,"This rare lizard can only be found in the
+Eldin region. Its scales have heat-resistant
+properties, so when cooked with monster
+parts, it produces a fire-resistance elixir.",-,ResistBurn,1,900,-,-,5,-,-,Gray,-,-, CookInsect,-,-,-,-,Animal_Insect_X,Lizard
+Sticky Lizard,,"The suction of its toes allows this lizard to
+easily cling to walls. It could be an asset
+for a climber on wet surfaces if it were mixed
+into an elixir.",-,NotSlippy,1,900,-,-,8,-,-,White,-,-, CookInsect,-,-,-,-,Animal_Insect_AH,Lizard
+Diamond,,"The most precious ore one can find. Its
+signature sparkle has charmed Hyruleans for
+generations. As such, it has sold for a very
+high price since ancient times.",-,-,-,-,-,-,500,2000,-,White,,, CookOre,-,-,-,-,Item_Ore_A,Ore
+Ruby,,"A precious red ore mined from large ore
+deposits. Rubies contain the power of fire and
+have fetched a high price since ancient times.",-,-,-,-,-,-,110,440,-,Red,,, CookOre,-,-,-,-,Item_Ore_B,Ore
+Sapphire,,"A precious blue ore mined from natural rock
+formations. Sapphires contain the very
+essence of ice. They've been known to
+fetch a high price since ancient times.",-,-,-,-,-,-,150,600,-,Blue,,, CookOre,-,-,-,-,Item_Ore_C,Ore
+Topaz,,"This precious yellow ore contains the power
+of electricity. It's been known to fetch a
+high price since ancient times.",-,-,-,-,-,-,80,320,-,Yellow,,, CookOre,-,-,-,-,Item_Ore_D,Ore
+Opal,,"A valuable ore that gives off a mesmerizing
+iridescence similar to the inside of a seashell.
+It contains the power of water.",-,-,-,-,-,-,30,120,-,Light Yellow,,, CookOre,-,-,-,-,Item_Ore_E,Ore
+Amber,,"A fossilized resin with a caramelesque sheen
+to it. It's been valued as a component in
+decorations and crafting since ancient times.",-,-,-,-,-,-,10,40,-,Orange,,, CookOre,-,-,-,-,Item_Ore_F,Ore
+Luminous Stone,,"This mysterious mineral gives off a pale blue
+glow in the dark, which some believe to be
+souls of the dead. Apparently, this stone can
+be used as a base to make special clothing.",-,-,-,-,-,-,20,80,-,Navy,,, CookOre,-,-,-,-,Item_Ore_G,Ore
+Flint,,"Strike it with a metallic weapon to generate
+a spark. This fire starter breaks after one use,
+but it can create a long-lasting flame if you
+strike it near firewood.",-,-,-,-,-,-,5,20,-,Black,,, CookOre,-,-,-,-,Item_Ore_I,Ore
+Bokoblin Guts,,"A rare material obtained by defeating a
+Bokoblin. It convulses on its own every now
+and then, which is really creepy, but perhaps
+it has a use.",-,-,-,-,160,30%,20,80,-,Purple,,, CookEnemy,-,-,-,-,Item_Enemy_02,EnemyGuts
+Moblin Guts,,"This prized ingredient can be obtained from
+Moblins. Its odor is too pungent for normal
+food preparation, but stew it with some
+critters to make elixirs.",-,-,-,-,160,30%,25,100,-,Light Blue,,, CookEnemy,-,-,-,-,Item_Enemy_08,EnemyGuts
+Horriblin Guts,,"Rare material dropped by a Horriblin. It's very
+bitter and unsuitable for cooking, but it makes
+an effective elixir when cooked with a critter.",-,-,-,-,160,30%,25,100,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_105,EnemyGuts
+Gibdo Guts,,"The dried guts of a defeated Gibdo. It's said
+they're effective, vitality-rich ingredients that
+are useful in elixirs.",-,-,-,-,80,100%,2,8,-,Purple,,, CookEnemy,-,-,-,-,Item_Enemy_121,EnemyGuts
+Boss Bokoblin Guts,,"A rare material dropped by a Boss Bokoblin.
+It moves constantly and looks grotesque.
+Toss into a stew with some critters to create
+elixirs.",-,-,-,-,160,30%,60,240,-,Blue,,, CookEnemy,-,-,-,-,Item_Enemy_136,EnemyGuts
+Lynel Guts,,"This highly sought-after ingredient can only
+be obtained from a Lynel. It pulses with the
+vitality of a Lynel, a strength that makes it
+invaluable as an ingredient for elixirs.",-,-,-,-,160,30%,200,800,-,Crimson,,, CookEnemy,-,-,-,-,Item_Enemy_14,EnemyGuts
+Gleeok Guts,,"A rare and precious, albeit creepy, material
+that pulses even after its former owner has
+been vanquished. Cook it with a critter to
+make a powerful elixir.",-,-,-,-,160,30%,200,800,-,Black,,, CookEnemy,-,-,-,-,Item_Enemy_157,EnemyGuts
+Frox Guts,,"Frox guts, still pulsing—possibly a vain
+attempt to circulate fluids through its former
+owner's large body. Cook it with a critter to
+make a powerful elixir.",-,-,-,-,160,30%,40,160,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_190,EnemyGuts
+Molduga Guts,,"A giant organ obtained from a Molduga. This
+invaluable ingredient is hard to come by,
+and its use is shrouded in mystery.",-,-,-,-,160,30%,110,440,-,Green,,, CookEnemy,-,-,-,-,Item_Enemy_25,EnemyGuts
+Hinox Guts,,"A giant, smelly Hinox organ of unknown
+function. Upon close inspection, it appears to
+be quivering. It can be used to make an
+elixir, but some say it has other uses as well.",-,-,-,-,160,30%,80,320,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_34,EnemyGuts
+Red Chuchu Jelly,,"A jiggly substance that normally comes from
+a Fire Chuchu. It consistently gives off heat.
+If struck, it will explode in a ball of flame.",-,-,-,-,80,10%,4,16,-,Red,,, CookEnemy,-,-,-,-,Item_Enemy_15,Enemy
+White Chuchu Jelly,,"A jiggly substance that came from an Ice
+Chuchu. It's cool to the touch, and squeezing
+it seems to relieve stress. If struck, it will
+explode in a cold mist.",-,-,-,-,80,10%,4,16,-,White,,, CookEnemy,-,-,-,-,Item_Enemy_17,Enemy
+Yellow Chuchu Jelly,,"A jiggly substance that came from an
+Electric Chuchu. Electricity pulses through
+its gelatinous mass. If struck, it will explode
+in a burst of electric current.",-,-,-,-,80,10%,4,16,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_16,Enemy
+Chuchu Jelly,,"A gelatinous substance that came from a
+Chuchu. It's unusable in this state, but
+applying a bit of elemental stimulation will
+change its form.",-,-,-,-,40,-,2,8,-,Light Blue,,, CookEnemy,-,-,-,-,Item_Enemy_40,Enemy
+Octo Balloon,,"This inflatable Octorok organ has a lot of lift,
+so attach it to items you want to see float.
+An arrow can serve as a good way to stick
+one to a distant object.",-,-,-,-,40,-,5,20,-,Purple,,, CookEnemy,-,-,-,-,Item_Enemy_57,Enemy
+Keese Eyeball,,"These mysterious orbs scan their
+surroundings. Take advantage of their glaring
+awareness, and attach one to an arrow to
+grant a homing quality to the arrow.",-,-,-,-,80,10%,2,8,-,Orange,,, CookEnemy,-,-,-,-,Item_Enemy_19,Enemy
+Fire Keese Eyeball,,"Fire Keese eyeballs are imbued with heat and
+are useful in making elixirs. Attach one to an
+arrow to grant a homing quality to the arrow.",-,-,-,-,80,10%,6,24,-,Red,,, CookEnemy,-,-,-,-,Item_Enemy_117,Enemy
+Ice Keese Eyeball,,"Ice Keese eyeballs are imbued with freezing
+power and are useful in making elixirs.
+Attach one to an arrow to grant a homing
+quality to the arrow.",-,-,-,-,80,10%,6,24,-,Light Blue,,, CookEnemy,-,-,-,-,Item_Enemy_119,Enemy
+Electric Keese Eyeball,,"Electric Keese eyeballs are imbued with
+electric power and are useful in making
+elixirs. Attach one to an arrow to grant a
+homing quality to the arrow.",-,-,-,-,80,10%,6,24,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_118,Enemy
+Octorok Eyeball,,"This can only be obtained from an Octorok-
+type enemy. Its nature is to focus on
+a moving object. Attach one to an arrow to
+grant a homing quality to the arrow.",-,-,-,-,80,10%,4,16,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_21,Enemy
+Aerocuda Eyeball,,"This eyeball is constantly trying to focus on its
+targets. Cook it with a critter to make an
+elixir, or attach it to an arrow to grant a
+homing quality to the arrow.",-,-,-,-,80,10%,4,16,-,Orange,,, CookEnemy,-,-,-,-,Item_Enemy_66,Enemy
+Keese Wing,,"An aerodynamic material dropped by a
+defeated Keese. Arrows and thrown weapons
+fly farther with this item attached.",-,-,-,-,40,-,3,12,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_18,Enemy
+Fire Keese Wing,,"A rare Fire Keese wing. It's not usually on fire,
+but it does produce a powerful blaze when
+stimulated.",-,-,-,-,40,-,8,32,-,Red,,, CookEnemy,-,-,-,-,Item_Enemy_44,Enemy
+Ice Keese Wing,,"A rare Ice Keese wing. Don't let its pretty,
+frozen surface fool you. It blasts out a
+dangerous, freezing frost when stimulated.",-,-,-,-,40,-,8,32,-,Blue,,, CookEnemy,-,-,-,-,Item_Enemy_46,Enemy
+Electric Keese Wing,,"A rare Electric Keese wing. It's electrically
+charged and will shock everything around it
+when stimulated.",-,-,-,-,40,-,8,32,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_45,Enemy
+Aerocuda Wing,,"A large, wide Aerocuda wing. Arrows and
+thrown weapons fly farther with this item
+attached, even in a slight wind.",-,-,-,-,40,-,6,24,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_124,Enemy
+Gibdo Wing,,"A wing that catches the light. Arrows and
+thrown weapons fly farther with this item
+attached. Cook it with a critter to make an
+elixir.",-,-,-,-,40,-,6,24,-,Navy,,, CookEnemy,-,-,-,-,Item_Enemy_123,Enemy
+Gleeok Wing,,"This aerodynamic wing segment from a
+Gleeok is thin and light but extremely sturdy.
+Arrows and thrown weapons fly farther with
+this item attached.",-,-,-,-,40,-,38,152,-,Green,,, CookEnemy,-,-,-,-,Item_Enemy_156,Enemy
+Molduga Fin,,"A sturdy, wing-like dorsal fin with a thick
+membrane that regulates wind resistance.
+Arrows and thrown weapons fly farther with
+this item attached. It also works well in elixirs.",-,-,-,-,80,10%,30,120,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_24,Enemy
+Bokoblin Horn,,"A sharp horn with multiple barbs. Attach it to
+a weapon to increase its attack power, or
+cook it with a critter to make an elixir.",-,-,-,-,40,-,3,12,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_77,EnemyBlade
+Blue Bokoblin Horn,,"A two-pronged horn with sharp edges and
+tips. Attach it to a weapon to moderately
+increase its attack power, or brew it into an
+elixir.",-,-,-,-,40,-,5,20,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_78,EnemyBlade
+Black Bokoblin Horn,,"A vicious, three-pronged horn. Attach it to a
+weapon to greatly increase its attack power,
+or cook it with a critter to make an elixir.",-,-,-,-,40,-,9,36,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_79,EnemyBlade
+Silver Bokoblin Horn,,"A large, blade-like horn with a unique flourish
+on the tip. It's sharper than it looks. Attach it
+to a weapon to vastly increase attack power,
+or cook it with a critter to make an elixir.",-,-,-,-,40,-,25,100,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_80,EnemyBlade
+Boss Bokoblin Horn,,"The band on this sword-shaped horn shows
+that it belonged to a leader. Attach it to a
+weapon to increase its attack power, or cook
+it with a critter to make an elixir.",-,-,-,-,40,-,14,52,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_64,EnemyBlade
+Blue Boss Bokoblin Horn,,"An axe-shaped horn with a band to identify it
+as belonging to a leader. Attach it to a
+weapon to moderately increase attack power,
+or cook it with a critter to make an elixir.",-,-,-,-,40,-,26,104,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_132,EnemyBlade
+Black Boss Bokoblin Horn,,"A double-edged, axe-shaped horn with two
+leader bands. Attach it to a weapon to greatly
+increase attack power, or cook it with a
+critter to make an elixir.",-,-,-,-,40,-,36,144,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_133,EnemyBlade
+Silver Boss Bokoblin Horn,,"A circular, serrated horn. The neatly tied strap
+contains arcane power. Attach it to a weapon
+to vastly increase attack power, or cook it
+with a critter to make an elixir.",-,-,-,-,40,-,44,176,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_134,EnemyBlade
+Lizalfos Horn,,"A thin, sharp, knife-like horn. Attach it to a
+weapon to increase its attack power, or cook
+it with a critter to brew an elixir.",-,-,-,-,40,-,8,32,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_106,EnemyBlade
+Blue Lizalfos Horn,,"A very long, sword-like horn. Attach it to a
+weapon to moderately increase its attack
+power, or cook it with a critter to brew an
+elixir.",-,-,-,-,40,-,10,40,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_107,EnemyBlade
+Black Lizalfos Horn,,"A blade-like, serrated horn. Attach it to a
+weapon to greatly increase its attack power,
+or cook it with a critter to brew an elixir.",-,-,-,-,40,-,15,60,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_108,EnemyBlade
+Silver Lizalfos Horn,,"A sickle-shaped horn that looks like it could
+slice anything it touches. Attach it to a
+weapon to vastly increase its attack power, or
+cook it with a critter to make an elixir.",-,-,-,-,40,-,30,120,-,Crimson,,, CookEnemy,-,-,-,-,Item_Enemy_109,EnemyBlade
+Fire-Breath Lizalfos Horn,,"A horn that glows red with the power of fire.
+Cook it with a critter to make an elixir. The
+right combination could draw out the blazing
+power contained within.",-,-,-,-,40,-,15,60,-,Red,,, CookEnemy,-,-,-,-,Item_Enemy_58,EnemyBlade
+Ice-Breath Lizalfos Horn,,"The freezing power embedded in this horn's
+crystal tip can be used to your advantage if
+you know how. Otherwise, cook it with a
+critter to make an elixir.",-,-,-,-,40,-,15,60,-,Light Blue,,, CookEnemy,-,-,-,-,Item_Enemy_59,EnemyBlade
+Electric Lizalfos Horn,,"A horn charged with as much electricity as a
+bolt of lightning. Cook it with a critter to
+make an elixir. It will discharge electricity
+when stimulated.",-,-,-,-,40,-,15,60,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_60,EnemyBlade
+Lynel Saber Horn,,"This blade-like Lynel horn is extremely sharp.
+It increases a weapon's attack power when
+attached. Cook it with a critter to make an
+elixir.",-,-,-,-,40,-,40,160,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_148,EnemyBlade
+Blue-Maned Lynel Saber Horn,,"The sharp, blade-like horn of a Blue-Maned
+Lynel. Attach it to a weapon to moderately
+increase its attack power. Cook it with a
+critter to make an elixir.",-,-,-,-,40,-,70,280,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_149,EnemyBlade
+White-Maned Lynel Saber Horn,,"This blade-like horn of a White-Maned Lynel
+can slash through just about anything. Attach
+it to a weapon to greatly increase attack
+power. Cook with a critter to make an elixir.",-,-,-,-,40,-,90,360,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_150,EnemyBlade
+Silver Lynel Saber Horn,,"This piercing horn is sharpened to a point for
+maximum poking. Attach it to a weapon to
+vastly increase its attack power. Cook it with
+a critter to make an elixir.",-,-,-,-,40,-,150,600,-,Black,,, CookEnemy,-,-,-,-,Item_Enemy_151,EnemyBlade
+Soldier Construct Horn,,"A blade-like horn from a Soldier Construct.
+It's very sharp, so handle with care.",-,-,-,-,-,-,2,8,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_166,EnemyBlade
+Soldier Construct II Horn,,"A sharp, hooked horn dropped from a Soldier
+Construct II. It's well suited for slicing through
+small branches and plants. Attach it to a
+weapon to moderately increase attack power.",-,-,-,-,-,-,4,16,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_167,EnemyBlade
+Soldier Construct III Horn,,"A serrated horn from a Soldier Construct III.
+Attach it to a weapon to greatly increase
+attack power. It can cut through plants and
+large trees.",-,-,-,-,-,-,10,40,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_168,EnemyBlade
+Soldier Construct IV Horn,,"A horn embedded with a sharp disk. The disk
+spins mysteriously and can slice through
+almost anything. Attach the horn to a weapon
+and vastly increase its attack power.",-,-,-,-,-,-,24,96,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_169,EnemyBlade
+Captain Construct I Horn,,"This wavy, double-edged, blade-like horn is
+formidable when it comes to slashing. Attach
+it to a weapon to increase attack power.",-,-,-,-,-,-,3,12,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_67,EnemyBlade
+Captain Construct II Horn,,"A sharp, blade-like horn with a split tip that
+easily slices anything it touches. Attach it to a
+weapon to moderately increase attack power.",-,-,-,-,-,-,9,36,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_191,EnemyBlade
+Captain Construct III Horn,,"A sharp, blade-like horn with a complex tip.
+It looks almost decorative. Attach it to a
+weapon to greatly increase attack power.",-,-,-,-,-,-,12,48,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_192,EnemyBlade
+Captain Construct IV Horn,,"A mean-looking, branching, blade-like horn.
+Its edges and tips are extremely sharp. Attach
+it to a weapon to vastly increase its attack
+power.",-,-,-,-,-,-,30,120,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_193,EnemyBlade
+Hinox Toenail,,"As tough as plate armor, this item increases
+an arrow's attack power when attached to it.
+Cook it with a critter to make an elixir.",-,-,-,-,80,10%,20,80,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_32,EnemyBlade
+Gleeok Flame Horn,,"A crown-like, fire-imbued horn of a Gleeok.
+Attach it to a weapon to vastly increase its
+attack power. Cook it with a critter to make
+an elixir.",-,-,-,-,40,-,70,280,-,Crimson,,, CookEnemy,-,-,-,-,Item_Enemy_153,EnemyBlade
+Gleeok Frost Horn,,"A crown-like, frost-imbued horn of a Gleeok.
+Attach it to a weapon to vastly increase its
+attack power. Cook it with a critter to make
+an elixir.",-,-,-,-,40,-,90,360,-,Navy,,, CookEnemy,-,-,-,-,Item_Enemy_154,EnemyBlade
+Gleeok Thunder Horn,,"A crown-like, lightning-imbued horn of a
+Gleeok. Attach it to a weapon to vastly
+increase its attack power. Cook it with a
+critter to make an elixir.",-,-,-,-,40,-,150,600,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_155,EnemyBlade
+Dinraal's Horn,,"A sharp horn of the red spirit, Dinraal. It is
+said to be the crystallized power of fire itself.
+Attach the blade-shaped horn to a weapon to
+vastly increase attack power.",-,-,-,-,1800,100%,300,1200,-,Crimson,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_211,EnemyBlade
+Naydra's Horn,,"A sharp horn of the blue spirit, Naydra. It is
+said to be the crystallized power of ice itself.
+Attach the blade-shaped horn to a weapon to
+vastly increase attack power.",-,-,-,-,1800,100%,300,1200,-,Light Blue,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_212,EnemyBlade
+Farosh's Horn,,"A sharp horn of the golden spirit, Farosh. It is
+said to be the crystallized power of electricity
+itself. Attach the blade-shaped horn to a
+weapon to vastly increase attack power.",-,-,-,-,1800,100%,300,1200,-,Light Yellow,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_213,EnemyBlade
+Light Dragon's Horn,,"A horn chipped off the Light Dragon. Its
+gentle glow has a calming effect, and it has a
+mysterious healing power when attached to
+a weapon.",-,-,-,-,1800,100%,300,1200,-,White,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_214,EnemyBlade
+Like Like Stone,,"A strange round stone from a Like Like,
+made of crystallized inner fluids. It's a good
+ingredient for elixirs.",-,-,-,-,80,10%,15,60,-,White,,, CookEnemy,-,-,-,-,Item_Enemy_181,EnemyHammer
+Fire Like Stone,,"A stomach stone that persists even at high
+temperatures. It retains heat even outside the
+body of the creature that contained it, which
+makes it a useful elixir ingredient.",-,-,-,-,80,10%,25,100,-,Red,,, CookEnemy,-,-,-,-,Item_Enemy_182,EnemyHammer
+Ice Like Stone,,"A stomach stone kept cold inside a very low-
+temperature body. It stays cold, even outside
+the body of the creature that contained it.
+Cook it with a critter to make an elixir.",-,-,-,-,80,10%,25,100,-,Light Blue,,, CookEnemy,-,-,-,-,Item_Enemy_184,EnemyHammer
+Shock Like Stone,,"A stomach stone exposed to high voltage
+inside the body of a Shock Like. It maintains
+some charge even outside the creature. Cook
+it with a critter to make an elixir.",-,-,-,-,80,10%,25,100,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_183,EnemyHammer
+Moblin Horn,,"A hard horn that resulted from a skull
+mutation. Attach it to a weapon to increase
+its attack power, or cook it with a critter to
+make an elixir.",-,-,-,-,40,-,5,20,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_89,EnemyHammer
+Blue Moblin Horn,,"A large, curved horn with two extremely hard
+tips. Attach it to a weapon to moderately
+increase its attack power, or cook it with a
+critter to make an elixir.",-,-,-,-,40,-,9,36,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_90,EnemyHammer
+Black Moblin Horn,,"A hefty horn with multiple tough barbs. 
+Attach it to a weapon to greatly increase its
+attack power, or cook it with a critter to make
+an elixir.",-,-,-,-,40,-,15,60,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_91,EnemyHammer
+Silver Moblin Horn,,"A nasty-looking, rock-hard horn. Attach it to
+a weapon to vastly increase its attack power,
+or cook it with a critter to make an elixir.",-,-,-,-,40,-,30,120,-,White,,, CookEnemy,-,-,-,-,Item_Enemy_92,EnemyHammer
+Horriblin Horn,,"An elongated hammer-shaped horn with a
+hard, flat front. Attach to a weapon to
+increase attack power, or cook it with a critter
+to make an elixir.",-,-,-,-,40,-,4,16,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_100,EnemyHammer
+Blue Horriblin Horn,,"A hammer-shaped horn with spiky bumps.
+Attach it to a weapon to moderately increase
+its attack power, or cook it with a critter to
+make an elixir.",-,-,-,-,40,-,9,36,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_101,EnemyHammer
+Black Horriblin Horn,,"This large, heavy horn has slowly grown into
+its present hammer-like shape. Attach it to a
+weapon to greatly increase its attack power,
+or cook it with a critter to make an elixir.",-,-,-,-,40,-,15,60,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_102,EnemyHammer
+Silver Horriblin Horn,,"A curved horn with an extremely hard tip.
+Attach it to a weapon to vastly increase its
+attack power, or cook it with a critter to
+make an elixir.",-,-,-,-,40,-,30,120,-,Purple,,, CookEnemy,-,-,-,-,Item_Enemy_103,EnemyHammer
+Lynel Hoof,,"This rare ingredient can be obtained only from
+a Lynel. It's very heavy and can be brewed
+with a critter for an elixir. Attached to an
+arrow, it increases the arrow's attack power.",-,-,-,-,80,10%,50,200,-,Black,,, CookEnemy,-,-,-,-,Item_Enemy_13,EnemyHammer
+Lynel Mace Horn,,"A hard, curved Lynel horn. It isn't fully grown,
+but it can be attached to a weapon to
+increase its attack power, or cooked with a
+critter to make an elixir.",-,-,-,-,40,-,40,160,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_215,EnemyHammer
+Blue-Maned Lynel Mace Horn,,"Its ends are split apart, but this horn from
+a Blue-Maned Lynel is solid. Attach it to a
+weapon to moderately increase its attack
+power, or brew it into an elixir.",-,-,-,-,40,-,70,280,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_216,EnemyHammer
+White-Maned Lynel Mace Horn,,"The claw-like ends of this White-Maned Lynel
+horn are all extremely hard. Attach to a
+weapon to greatly increase its attack power,
+or cook it with a critter to make an elixir.",-,-,-,-,40,-,90,360,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_217,EnemyHammer
+Silver Lynel Mace Horn,,"This wickedly barbed Silver Lynel horn is as
+hard as a diamond. Attach to a weapon to
+vastly increase its attack power. It's also a
+precious elixir ingredient.",-,-,-,-,40,-,150,600,-,Black,,, CookEnemy,-,-,-,-,Item_Enemy_218,EnemyHammer
+Hinox Horn,,"A horn wrapped in spiked wood. Attach it to
+a weapon to increase attack power, or cook
+it with a critter to make an elixir.",-,-,-,-,40,-,15,60,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_142,EnemyHammer
+Blue Hinox Horn,,"This mean-looking horn is wrapped in hard
+chains. Attach it to a weapon to moderately
+increase attack power, or cook it with a
+critter to make an elixir.",-,-,-,-,40,-,35,140,-,Black,,, CookEnemy,-,-,-,-,Item_Enemy_143,EnemyHammer
+Black Hinox Horn,,"A horn wrapped in dangerous debris. It's easy
+to work with and greatly increases the attack
+power of a weapon when attached. Cook it
+with a critter to make an elixir.",-,-,-,-,40,-,60,240,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_144,EnemyHammer
+Stalnox Horn,,"The impaled skulls should serve as a warning.
+But if you do obtain one, attach it to a
+weapon to vastly increase its attack power, or
+cook it with a critter to make an elixir.",-,-,-,-,40,-,15,60,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_208,EnemyHammer
+Molduga Jaw,,"A hard jawbone. Its shape allows a Molduga
+some maneuverability in the sand. Attach it to
+a weapon to greatly increase its attack power.
+Cook it with a critter to make an elixir.",-,-,-,-,80,10%,30,120,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_210,EnemyHammer
+Frox Fang,,"A giant, ore-crunching Frox fang. Attach it to
+a weapon to moderately increase its attack
+power, or cook it with a critter to make an
+elixir.",-,-,-,-,40,-,40,160,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_186,EnemyHammer
+Obsidian Frox Fang,,"A giant fang for excavating and crushing ores.
+Attach it to a weapon to greatly increase its
+attack power, or cook it with a critter to make
+an elixir.",-,-,-,-,40,-,40,160,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_187,EnemyHammer
+Blue-White Frox Fang,,"A giant fang that can easily dig through solid
+bedrock. Attach it to a weapon to vastly
+increase its attack power, or cook it with a
+critter to make an elixir.",-,-,-,-,40,-,40,160,-,Peach,,, CookEnemy,-,-,-,-,Item_Enemy_188,EnemyHammer
+Shard of Dinraal's Spike,,"An incredibly hard stone mined from a spike
+on Dinraal's back. It is very destructive when
+fused to a weapon, and it also imbues that
+weapon with the power of flame.",-,-,-,-,80,10%,30,120,-,Crimson,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_228,EnemyHammer
+Shard of Naydra's Spike,,"An incredibly hard stone mined from a spike
+on Naydra's back. It is very destructive when
+fused to a weapon, and it also imbues that
+weapon with the power of ice.",-,-,-,-,80,10%,30,120,-,Light Blue,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_229,EnemyHammer
+Shard of Farosh's Spike,,"An incredibly hard stone mined from a spike
+on Farosh's back. It is very destructive when
+fused to a weapon, and it also imbues that
+weapon with the power to shock.",-,-,-,-,80,10%,30,120,-,Light Yellow,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_230,EnemyHammer
+Shard of Light Dragon's Spike,,"An incredibly hard stone mined from a spike
+on the Light Dragon's back. It is very
+destructive when fused to a weapon, and it
+also imbues that weapon with healing power.",-,-,-,-,80,10%,30,120,-,White,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_231,EnemyHammer
+Lizalfos Tail,,"A highly flexible, stretchable tail. Fuse it with a
+weapon to add a lashing, whiplike quality to
+attacks.",-,-,-,-,160,30%,18,72,-,Green,,, CookEnemy,-,-,-,-,Item_Enemy_05,EnemyWhip
+Blue Lizalfos Tail,,"A highly flexible, stretchable tail. Fuse it with a
+weapon to add a lashing, whiplike quality to
+attacks, or cook it with a critter to make an
+elixir.",-,-,-,-,160,30%,20,80,-,Blue,,, CookEnemy,-,-,-,-,Item_Enemy_114,EnemyWhip
+Black Lizalfos Tail,,"A highly flexible, stretchable tail. Fuse it with a
+weapon to add a lashing, whiplike quality to
+attacks, or cook it with a critter to make an
+elixir.",-,-,-,-,160,30%,22,88,-,Black,,, CookEnemy,-,-,-,-,Item_Enemy_115,EnemyWhip
+Silver Lizalfos Tail,,"A tough, flexible, stretchable tail. Fuse it with
+a weapon to add a lashing, whiplike quality to
+attacks.",-,-,-,-,160,30%,24,96,-,White,,, CookEnemy,-,-,-,-,Item_Enemy_116,EnemyWhip
+Fire-Breath Lizalfos Tail,,"A tail that has stored up some heat from a
+scorching-hot environment. Fuse it with a
+weapon to add a lashing, whiplike quality to
+attacks, or cook it into an elixir.",-,-,-,-,160,30%,22,88,-,Red,,, CookEnemy,-,-,-,-,Item_Enemy_41,EnemyWhip
+Ice-Breath Lizalfos Tail,,"A tail that's been exposed to the cold in an
+extremely frigid environment. Fuse it with a
+weapon to add a lashing, whiplike quality to
+attacks, or cook it into an elixir.",-,-,-,-,160,30%,22,88,-,Blue,,, CookEnemy,-,-,-,-,Item_Enemy_42,EnemyWhip
+Electric Lizalfos Tail,,"A tail that's been exposed to electricity.
+Fuse it with a weapon to add a lashing,
+whiplike quality to attacks, or cook it with
+a critter to make an elixir.",-,-,-,-,160,30%,22,88,-,Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_43,EnemyWhip
+Gibdo Bone,,"A creepy bone with multiple sharp tips. Attach
+it to a weapon to greatly increase its attack
+power. It tends to break easily due to its odd
+shape.",-,-,-,-,40,-,3,10,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_69,EnemyBlunt
+Octorok Tentacle,,"This can only be obtained from an Octorok-
+type enemy. It's too acidic for cooking, but
+it's highly valued as an ingredient for elixirs.",-,-,-,-,80,10%,10,40,-,Light Blue,,, CookEnemy,-,-,-,-,Item_Enemy_20,EnemyBlunt
+Bokoblin Fang,,"It's worn down and not very sharp, but it's
+still pretty hard. Cook it with a critter to make
+an elixir, or attach it to an arrow to increase
+its attack power.",-,-,-,-,80,10%,8,32,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_01,EnemyBlunt
+Moblin Fang,,"A hard, sharp fang obtained from a Moblin.
+Stew it with a critter to make an elixir, or
+attach it to an arrow to increase its attack
+power.",-,-,-,-,80,10%,12,45,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_07,EnemyBlunt
+Boss Bokoblin Fang,,"A large fang dropped by a Boss Bokoblin.
+Attach it to an arrow to increase attack
+power, or stew it with a critter to make an
+elixir.",-,-,-,-,80,10%,15,60,-,White,,, CookEnemy,-,-,-,-,Item_Enemy_135,EnemyBlunt
+Hinox Tooth,,"This Hinox tooth is almost unbelievably big.
+Attach it to an arrowhead to increase its
+attack power, or brew it into an elixir.",-,-,-,-,80,10%,35,140,-,Brown,,, CookEnemy,-,-,-,-,Item_Enemy_33,EnemyBlunt
+Horriblin Claw,,"A talon obtained from a Horriblin. Attach it to
+an arrow to increase its attack power, or stew
+it with a critter to make an elixir.",-,-,-,-,80,10%,12,45,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_104,EnemyBlunt
+Lizalfos Talon,,"This talon once grew from the elbow of a
+Lizalfos. Its aerodynamic shape increases
+attack power when attached to arrows. Stew
+it with critters to make elixirs.",-,-,-,-,80,10%,15,60,-,Gray,,, CookEnemy,-,-,-,-,Item_Enemy_04,EnemyBlunt
+Frox Fingernail,,"A flat, cracked fingernail. Attach it to an arrow
+to increase its attack power, or cook it with a
+critter to make an elixir.",-,-,-,-,80,10%,40,160,-,Light Yellow,,, CookEnemy,-,-,-,-,Item_Enemy_189,EnemyBlunt
+Dinraal's Scale,,"This precious scale contains a massive
+amount of heat. Attach it to a weapon to
+greatly increase its attack power. It can be
+cooked, but eating it seems like a waste.",-,-,-,-,60,100%,150,600,-,Crimson,,, CookLowPrice, CookSpice, CookValue1,-,-,Item_Enemy_38,EnemyBlunt
+Naydra's Scale,,"This precious scale contains supercooled air
+inside. Attach it to a weapon to greatly
+increase its attack power. It can be cooked,
+but just eating it seems like a waste.",-,-,-,-,60,100%,150,600,-,Light Blue,,, CookLowPrice, CookSpice, CookValue1,-,-,Item_Enemy_49,EnemyBlunt
+Farosh's Scale,,"This precious scale is constantly charged with
+powerful electricity. Attach it to a weapon to
+greatly increase its attack power. Cooking it is
+possible but probably wasteful.",-,-,-,-,60,100%,150,600,-,Light Yellow,,, CookLowPrice, CookSpice, CookValue1,-,-,Item_Enemy_53,EnemyBlunt
+Light Dragon's Scale,,"A precious scale that fell from the Light
+Dragon. It's faintly warm and has an oddly
+familiar, mysterious power that heals when
+attached to a weapon.",-,-,-,-,60,100%,150,600,-,White,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_158,EnemyBlunt
+Dinraal's Claw,,"This valuable claw is said to have once been
+covered in flames. Attach it to a weapon to
+greatly increase its attack power. It can also
+be cooked or sold.",-,-,-,-,180,100%,180,720,-,Crimson,,, CookLowPrice, CookSpice, CookValue1,-,-,Item_Enemy_39,EnemyBlunt
+Naydra's Claw,,"This valuable claw was once nearly frozen.
+Attach it to a weapon to greatly increase its
+attack power. It can be cooked or sold for
+some rupees.",-,-,-,-,180,100%,180,720,-,Light Blue,,, CookLowPrice, CookSpice, CookValue1,-,-,Item_Enemy_50,EnemyBlunt
+Farosh's Claw,,"A valuable claw that once produced lightning.
+Attach it to a weapon to greatly increase its
+attack power. It can also be cooked or sold
+for rupees.",-,-,-,-,180,100%,180,720,-,Light Yellow,,, CookLowPrice, CookSpice, CookValue1,-,-,Item_Enemy_54,EnemyBlunt
+Light Dragon's Talon,,"A precious talon that fell from the Light
+Dragon. It may look dangerous, but its real
+power is to heal when attached to a weapon.",-,-,-,-,180,100%,180,720,-,White,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_159,EnemyBlunt
+Shard of Dinraal's Fang,,"An incredibly hard piece of a fang from
+Dinraal. Attach it to a weapon to greatly
+increase its attack power. It can also be
+cooked into a meal.",-,-,-,-,600,100%,250,1000,-,Crimson,,, CookLowPrice, CookSpice, CookValue1,-,-,Item_Enemy_47,EnemyBlunt
+Shard of Naydra's Fang,,"A piece that chipped off one of Naydra's 
+fangs. It's much harder than any metal.
+Attach it to a weapon to greatly increase its
+attack power, or cook it into a meal.",-,-,-,-,600,100%,250,1000,-,Light Blue,,, CookLowPrice, CookSpice, CookValue1,-,-,Item_Enemy_51,EnemyBlunt
+Shard of Farosh's Fang,,"An extremely hard chip of one of Farosh's
+fangs. Attach it to a weapon to greatly
+increase its attack power. It can also be used
+in cooking.",-,-,-,-,600,100%,250,1000,-,Light Yellow,,, CookLowPrice, CookSpice, CookValue1,-,-,Item_Enemy_55,EnemyBlunt
+Shard of Light Dragon's Fang,,"A shard that fell off from the Light Dragon's
+fang. It's smooth rather than rough, and it has
+a mysterious power to heal when attached to
+a weapon. ",-,-,-,-,600,100%,250,1000,-,White,,, CookLowPrice, CookSpice,-,-,-,Item_Enemy_160,EnemyBlunt
+Ancient Blade,,"An ancient dagger-like blade. It's too small to
+wield as a weapon, but it can be used as an
+arrowhead.",-,-,-,-,-,-,1,4,-,Brown,,, CookGolem,-,-,-,-,Item_Weapon_01,AncientBlade
+King's Scale,,"Zora kings bear this scale on their foreheads.
+It sparkles in different ways depending on 
+the angle from which it's viewed. They were
+once used in ancient Zora ceremonies.",-,-,-,-,-,-,,120,-,Light Blue,,, CookOre,-,-,-,-,Item_KingScale,FireWoodBundle
+Brightbloom Seed,,"A seed that's often found in caves or wells.
+When struck, it will take root and bloom,
+giving off faint light from a small flower.",0,-,-,-,-,-,2,8,-,Light Yellow,,, CookFruit,-,-,-,-,LightBall_Small,FireWoodBundle
+Giant Brightbloom Seed,,"A seed that's found underground. When
+struck, it will take root and bloom, radiating
+a large amount of light from a big flower.",0,-,-,-,-,-,4,16,-,Light Yellow,,, CookFruit,-,-,-,-,LightBall_Large,FireWoodBundle
+Hylian Pine Cone,,"Grows on trees found all over Hyrule. It 
+contains oil and burns well. Throw it into a fire
+to increase the intensity of the flame.",-,-,-,-,-,-,2,8,-,Brown,,, CookOre,-,-,-,-,FldObj_Pinecone_A_01,FireWoodBundle
+Wood,,"A portable bundle of wood. You can use this
+to make a campfire if you have something to
+light it.",-,-,-,-,-,-,2,12,-,Brown,,, CookOre,-,-,-,-,Obj_FireWoodBundle,FireWoodBundle
+Zonaite,,"An unusual mineral that has many purposes.
+Ancients extracted energy from it and refined
+it for the crafting of weapons and armor.",-,-,-,-,-,-,3,12,-,Green,,, CookOre,-,-,-,-,Item_Ore_L,Zonanium
+Large Zonaite,,"Zonaite of especially high purity. The amount
+of energy concentrated in it allows for much
+higher power output than regular zonaite.",-,-,-,-,-,-,6,24,-,Green,,, CookOre,-,-,-,-,Item_Ore_M,Zonanium
+Zonai Charge,,"A material used as a power source for
+constructs and other devices. Its strange light
+seems to reveal potent energy inside.",-,-,-,-,-,-,6,2,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_130,Zonanium
+Large Zonai Charge,,"A large Zonai charge found near ruins.
+It seems as though it's bursting with energy
+because of the strangely powerful light
+coming from it.",-,-,-,-,-,-,10,1,-,Green,,, CookGolem,-,-,-,-,Item_Enemy_131,Zonanium

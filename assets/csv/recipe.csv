@@ -1,0 +1,568 @@
+Name,Inventory Icon,Caption,Required Ingredient 1,Required Ingredient 2,Required Ingredient 3,Required Ingredient 4,Required Ingredient 5,Cooking Method,Effect,Effect Level,Effect Duration,Base Hearts Recovered,ActorName
+Mushroom Skewer,,"This simple mushroom-packed skewer has its
+colorful presentation to thank for its appeal.",Mushroom,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_01
+Meat and Mushroom Skewer,,"A filling dish made by grilling various
+mountain ingredients with meat.",Mushroom,Meat,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_09
+Fish and Mushroom Skewer,,"A simple dish made by cooking skewered
+fresh fish alongside fragrant mushrooms.",Mushroom,Fish,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_08
+Meat Skewer,,"A juicy, filling snack made by grilling small
+chunks of meat on a skewer.",Meat,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_06
+Fish Skewer,,"A simple dish made by cooking chunks of
+fresh fish on a skewer.",Fish,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_05
+Seafood Skewer,,"A skewer of delicious roasted fish
+and shellfish.",Seafood,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_23
+Copious Meat Skewers,,"Just shove a bunch of meat onto a skewer,
+and you're good to go.",Meat,Meat,Meat,Meat,-,Cooking Pot,-,-,-,-,Item_Cook_B_16
+Copious Seafood Skewers,,"It's just a whole heap of stuff shoved onto a
+skewer, but it's still a pretty tasty dish.",Fish,Fish,Fish,Fish,-,Cooking Pot,-,-,-,-,Item_Cook_B_15
+Steamed Fruit,,"A regional dish made by steaming near-
+ripened fruits in the leaves of fragrant plants.",Plant,Fruit,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_03
+Steamed Tomatoes,,"Tomato cooked while wrapped in a leaf. The
+heat brings out its medicinal effect.",Plant,Hylian Tomato,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_Q_03
+Steamed Mushrooms,,"A healthy vegetable dish achieved by
+steaming mushrooms in plant leaves.",Plant,Mushroom,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_02
+Steamed Meat,,"This meat dish has been wrapped in fragrant
+leaves and steamed to preserve its moisture.",Plant,Meat,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_05
+Steamed Fish,,"A refined dish made by wrapping a fresh fish
+in fragrant wild greens and cooking it.",Plant,Fish,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_04
+Sautéed Peppers,,"The spiciness of these sautéed peppers has
+been broken by the heat for a sweeter taste.",Spicy Pepper,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_21
+Sautéed Nuts,,"These sautéed tree seeds are the perfect
+snack for the busy adventurer on the go!",Nut,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_22
+Fried Wild Greens,,"A basic vegetable dish made by sautéing
+fresh wild plants.",Plant,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_01
+Copious Fried Wild Greens,,"A healthy dish made by cooking mixed 
+greens over a strong flame.",Plant,Plant,Plant,Plant,-,Cooking Pot,-,-,-,-,Item_Cook_B_11
+Cooked Stambulb,,"A wild dish of a whole stambulb roasted
+with its skin on. Sweet and tasty.",Stambulb,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_Q_06
+Buttered Stambulb,,"A simple dish of stambulb sautéed with
+goat butter. Sweet with a hint of spice.",Stambulb,Goat Butter,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_Q_07
+Copious Mushroom Skewers,,"Fans of fungal cuisine can't resist this simple
+mushroom-skewer dish. Very filling.",Mushroom,Mushroom,Mushroom,Mushroom,-,Cooking Pot,-,-,-,-,Item_Cook_B_13
+Spiced Meat Skewer,,"A special Goron spice covers up the scent
+of the meat, allowing its flavor to shine.",Raw Meat,Goron Spice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_P_03
+Prime Spiced Meat Skewer,,"The simple preparation of this steak dish
+belies its complex taste profile.",Raw Prime Meat,Goron Spice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_P_04
+Gourmet Spiced Meat Skewer,,"The rich aroma and juicy texture of this high-
+quality meat puts it in a league of its own.",Raw Gourmet Meat,Goron Spice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_P_05
+Crab Stir-Fry,,"The Goron spice used in preparing this crab
+pairs perfectly with the flavor of its meat.",Crab,Goron Spice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_10
+Meat and Seafood Fry,,"A filling dish made by cooking fresh seafood
+and meat together.",Meat,Fish,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_17
+Prime Meat and Seafood Fry,,"This comfort dish is made with choice cuts
+of meat and seafood.",Tier 2 Meat,Fish,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_18
+Gourmet Meat and Seafood Fry,,"A marriage of the choicest cuts of meat and
+seafood. As delicious as it is filling!",Tier 3 Meat,Fish,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_19
+Salt-Grilled Greens,,"A health-boosting dish made with leafy
+greens and a touch of salt.",Plant,Rock Salt,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_02
+Salt-Grilled Mushrooms,,"A basic mushroom dish made by lightly
+salting mushrooms and grilling them.",Mushroom,Rock Salt,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_01
+Salt-Grilled Meat,,"Short on ingredients? Just rub some meat in
+salt and cook it for a simple, tasty dish.",Tier 1 Meat,Rock Salt,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_04
+Salt-Grilled Prime Meat,,"A simple yet exquisite dish made by grilling
+high-quality meat on top of rock salt.",Tier 2 Meat,Rock Salt,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_05
+Salt-Grilled Gourmet Meat,,"This lavish grilled dish makes liberal use of
+high-quality cuts of meat.",Tier 3 Meat,Rock Salt,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_06
+Salt-Grilled Fish,,"A simple dish made by rolling a whole fish in
+natural rock salt before grilling it.",Fish,Rock Salt,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_03
+Salt-Grilled Crab,,"Nine out of ten fishermen agree crab is best
+enjoyed grilled and with just a bit of salt.",Crab,Rock Salt,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_09
+Herb Sauté,,"A fragrant mixture of herbs and spices.
+It's easily recognized by its unique aroma.",Plant,Goron Spice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_P_02
+Fragrant Mushroom Sauté,,"The fragrant aroma of this sautéed spice and
+mushroom dish makes your mouth water.",Mushroom,Goron Spice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_P_01
+Pepper Steak,,"The meat has been cooked in crushed
+peppers to accent its natural taste.",Meat,Spicy Pepper,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_07
+Pepper Seafood,,"The pepper seeds grilled with this seafood
+draw out its taste and pleasant aroma.",Fish,Spicy Pepper,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_D_08
+Fragrant Seafood Stew,,"A tasty dish of seafood and stambulb cooked
+in oil. Its aroma will whet your appetite.",Fish,Stambulb,Oil Jar,-,-,Cooking Pot,-,-,-,-,Item_Cook_R_05
+Deep-Fried Drumstick,,"A drumstick fried in high-quality oil. It's full of
+out-of-this-world flavor.",Raw Bird Drumstick,Oil Jar,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_R_06
+Deep-Fried Thigh,,"A deep-fried bird thigh so good, it's hard to
+take bites that aren't too big!",Raw Bird Thigh,Oil Jar,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_R_07
+Deep-Fried Bird Roast,,"A deep-fried whole bird of the highest grade.
+It's a standard item in any celebratory feast.",Raw Whole Bird,Oil Jar,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_R_08
+Seafood Meunière,,"Rich butter flanks fresh seafood. The secret
+ingredient is lots and lots of love.",Fish,Goat Butter,Tabantha Wheat,-,-,Cooking Pot,-,-,-,-,Item_Cook_H_01
+Porgy Meunière,,"Popular among residents of coastal regions,
+this juicy porgy is a delish dish.",Porgy,Goat Butter,Tabantha Wheat,-,-,Cooking Pot,-,-,-,-,Item_Cook_H_02
+Salmon Meunière,,"The crispy skin of this fried hearty salmon
+puts its texture in a class all its own.",Hearty Salmon,Goat Butter,Tabantha Wheat,-,-,Cooking Pot,-,-,-,-,Item_Cook_H_03
+Fruit and Mushroom Mix,,"This dish contrasts the sweetness of fruit with
+the savoriness of mushrooms.",Mushroom,Fruit,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_07
+Simmered Fruit,,"This sweet dish is made by heaping tasty
+fruits into a pan and simmering until tender.",Fruit,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_02
+Copious Simmered Fruit,,"The flavors of the various fruits in this
+simmered dish exist in perfect harmony.",Fruit,Fruit,Fruit,Fruit,-,Cooking Pot,-,-,-,-,Item_Cook_B_12
+Simmered Tomato,,"When simmered until tender, nutritious
+tomatoes can give this dish a sour kick.",Hylian Tomato,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_Q_01
+Fruity Tomato Stew,,"A colorful dish, a bounty of fruit simmered
+with fresh tomatoes.",Hylian Tomato,Fresh Milk,Rock Salt,-,-,Cooking Pot,-,-,-,-,Item_Cook_Q_02
+Tomato Mushroom Stew,,"A dish of fragrant mushrooms simmered with
+tomato. Healthy and rich in fiber.",Mushroom,Hylian Tomato,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_Q_04
+Tomato Seafood Soup,,"Seafood simmered with tomato. Full of
+intense flavor.",Fish,Hylian Tomato,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_Q_05
+Cream of Vegetable Soup,,"Made by simmering vegetables in milk, this
+healthy dish is as simple as its ingredients.",Plant,Rock Salt,Fresh Milk,-,-,Cooking Pot,-,-,-,-,Item_Cook_K_07
+Veggie Cream Soup,,"This creamy soup showcases the sweetness
+of vegetables in a veritable taste explosion.",Pumpkin or Carrot,Rock Salt,Fresh Milk,-,-,Cooking Pot,-,-,-,-,Item_Cook_F_03
+Cream of Mushroom Soup,,"This creamy mushroom-and-vegetable soup
+is thick and flavorful. ",Mushroom,Plant,Rock Salt,Fresh Milk,-,Cooking Pot,-,-,-,-,Item_Cook_K_06
+Creamy Meat Soup,,"This nutritious soup contains serious portions
+of lightly braised meat and many vegetables.",Meat,Plant,Rock Salt,Fresh Milk,-,Cooking Pot,-,-,-,-,Item_Cook_F_01
+Creamy Seafood Soup,,"Thick-cut chunks of seafood and stock
+provide a satisfying savoriness.",Fish,Plant,Rock Salt,Fresh Milk,-,Cooking Pot,-,-,-,-,Item_Cook_F_02
+Snail Chowder,,"The pleasant texture and flavor of snails
+combine with butter and milk in a rich soup.",Sneaky River Snail,Tabantha Wheat,Fresh Milk,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_K_04
+Creamy Heart Soup,,"Enjoying this sweet soup with another person
+will bring you both closer together.",Radish,Voltfruit,Hydromelon,Fresh Milk,-,Cooking Pot,-,-,-,-,Item_Cook_F_04
+Glazed Veggies,,"Don't like the taste of vegetables? Simply
+sauté them in honey for a salty-sweet flavor!",Plant,Courser Bee Honey,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_14
+Glazed Mushrooms,,"The honey in this mushroom dish gives it a
+sweet, complex taste and a savory finish.",Mushroom,Courser Bee Honey,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_11
+Glazed Meat,,"The sweetness of the honey permeates the
+meat, giving it a complex taste profile.",Meat,Courser Bee Honey,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_12
+Glazed Seafood,,"A seafood dish that you can actually
+wolf down whole!",Fish,Courser Bee Honey,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_13
+Curry Rice,,"A favorite all over Hyrule, this simple dish has
+a flavor you just won't get tired of.",Hylian Rice,Goron Spice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_J_01
+Vegetable Curry,,"This healthy curry is popular for its mild flavor
+and moderate spiciness.",Pumpkin or Carrot,Hylian Rice,Goron Spice,-,-,Cooking Pot,-,-,-,-,Item_Cook_J_02
+Meat Curry,,"The heat from the spice allows you to enjoy
+the large portion of the meat's savoriness.",Raw Meat,Hylian Rice,Goron Spice,-,-,Cooking Pot,-,-,-,-,Item_Cook_J_06
+Prime Meat Curry,,"The high-quality meat in this curry has given
+it a deeper taste than most other curries.",Raw Prime Meat,Hylian Rice,Goron Spice,-,-,Cooking Pot,-,-,-,-,Item_Cook_J_07
+Gourmet Meat Curry,,"The high-quality meat used in this prized
+dish satisfies meat and curry lovers alike.",Raw Gourmet Meat,Hylian Rice,Goron Spice,-,-,Cooking Pot,-,-,-,-,Item_Cook_J_09
+Poultry Curry,,"The savory meat pairs well with the aroma
+of spice in this common curry.",Raw Bird Drumstick,Hylian Rice,Goron Spice,-,-,Cooking Pot,-,-,-,-,Item_Cook_J_04
+Prime Poultry Curry,,"The secret to this curry's flavor is taking it off
+the heat while you add the spices.",Raw Bird Thigh,Hylian Rice,Goron Spice,-,-,Cooking Pot,-,-,-,-,Item_Cook_J_05
+Gourmet Poultry Curry,,"Once served in Hyrule Castle, the poultry
+used in this dish is of immensely high quality.",Raw Whole Bird,Hylian Rice,Goron Spice,-,-,Cooking Pot,-,-,-,-,Item_Cook_J_08
+Seafood Curry,,"This dish brims with treasures from the sea.
+Its spice packs a kick, so it's not for kids.",Porgy,Hylian Rice,Goron Spice,-,-,Cooking Pot,-,-,-,-,Item_Cook_J_03
+Cheesy Curry,,"Curry with plenty of Hateno cheese, which
+balances the spiciness and urges seconds.",Hylian Rice,Hateno Cheese,Goron Spice,-,-,Cooking Pot,-,-,-,-,Item_Cook_S_01
+Carrot Stew,,"This simple stew sat simmering for a long time
+to bring out the sweetness of the carrots.",Carrot,Goat Butter,Fresh Milk,Tabantha Wheat,-,Cooking Pot,-,-,-,-,Item_Cook_K_08
+Pumpkin Stew,,"Simply simmer a pumpkin to make
+this dish. A favorite in Kakariko Village.",Pumpkin,Tabantha Wheat,Fresh Milk,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_K_03
+Meat Stew,,"The hearty meat in this mainstay dish leaves
+bellies satisfied all throughout Hyrule.",Tier 1 Meat,Tabantha Wheat,Fresh Milk,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_K_01
+Prime Meat Stew,,"Letting the large portions of choice cuts of
+meat simmer brought out their savoriness.",Tier 2 Meat,Tabantha Wheat,Fresh Milk,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_K_02
+Gourmet Meat Stew,,"The meat has simmered for so long it melts in
+your mouth. A true bucket-list meal!",Tier 3 Meat,Tabantha Wheat,Fresh Milk,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_K_05
+Meat-Stuffed Pumpkin,,"This hollow, meat-filled pumpkin is a
+local specialty of Kakariko Village.",Pumpkin,Meat,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_B_20
+Vegetable Risotto,,"The sweetness of the ingredients
+gives this risotto a mild flavor.",Pumpkin or Carrot,Hylian Rice,Rock Salt,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_G_13
+Mushroom Risotto,,"The tantalizing aroma of mushrooms and
+butter beckons you to the table.",Mushroom,Hylian Rice,Rock Salt,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_G_12
+Salmon Risotto,,"The rice used in this rich risotto permeates
+the light flavor of the salmon.",Hearty Salmon,Hylian Rice,Rock Salt,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_G_14
+Crab Risotto,,"An everyday staple of seaside villages, the
+secret to its delicious flavor lies in crab fat.",Crab,Hylian Rice,Rock Salt,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_G_17
+Cheesy Risotto,,"Rich risotto made with fish or mushroom
+mixed with Hylian rice and Hateno cheese.",Fish / Mushroom / Plant,Hateno Cheese,Hylian Rice,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_Q_10
+Poultry Pilaf,,"Sautéed Hylian rice steamed in poultry
+broth. Cook on low heat until the rice is fluffy.",Raw Bird Drumstick,Bird Egg,Hylian Rice,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_E_01
+Prime Poultry Pilaf,,"The rice permeates the savory taste of the
+poultry in this Gerudo-region favorite.",Raw Bird Thigh,Bird Egg,Hylian Rice,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_E_02
+Gourmet Poultry Pilaf,,"Made with the highest-quality poultry, every
+bite of this pilaf floods your mouth with flavor.",Raw Whole Bird,Bird Egg,Hylian Rice,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_E_03
+Seafood Paella,,"No fisherman's birthday bash would be
+complete without this top-shelf seafood dish.",Porgy,Crab,Hylian Rice,Goat Butter,Rock Salt,Cooking Pot,-,-,-,-,Item_Cook_N_01
+Curry Pilaf,,"The Goron spice used in this pilaf has given
+it a rich, spicy aroma.",Goron Spice,Hylian Rice,Goat Butter,-,-,Cooking Pot,-,-,-,-,Item_Cook_G_11
+Fried Egg and Rice,,"The soft egg yolk pairs well with the fresh
+rice in this simple dish.",Hylian Rice,Bird Egg,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_E_04
+Crunchy Fried Rice,,"Hylian rice fried up with meat in high-quality
+oil. Each bite is packed with toasty flavor.",Meat,Oil Jar,Hylian Rice,Bird Egg,-,Cooking Pot,-,-,-,-,Item_Cook_Q_08
+Seafood Fried Rice,,"Various seafood has been sautéed with rice.
+The stronger the flame, the tastier the dish!",Porgy,Hylian Rice,Rock Salt,-,-,Cooking Pot,-,-,-,-,Item_Cook_G_10
+Crab Omelet with Rice,,"The fluffy crab legs pair perfectly with the
+rice for a truly scrumptious dish.",Crab,Bird Egg,Hylian Rice,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_G_16
+Meat and Rice Bowl,,"This dish of rice and lightly seared meat is a
+mainstay all throughout Hyrule.",Raw Meat,Hylian Rice,Rock Salt,-,-,Cooking Pot,-,-,-,-,Item_Cook_G_05
+Prime Meat and Rice Bowl,,"This bowl is loaded with high-quality meat.
+Your hunt for a serious meal ends here.",Raw Prime Meat,Hylian Rice,Rock Salt,-,-,Cooking Pot,-,-,-,-,Item_Cook_G_06
+Gourmet Meat and Rice Bowl,,"Only the most carefully selected cuts of high-
+quality meats go into this dish.",Raw Gourmet Meat,Hylian Rice,Rock Salt,-,-,Cooking Pot,-,-,-,-,Item_Cook_G_09
+Cheesy Meat Bowl,,"A high-calorie dish with meat and plenty of
+cheese. A great dish for very hungry diners.",Raw Meat,Hylian Rice,Hateno Cheese,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_S_02
+Prime Cheesy Meat Bowl,,"This bowl is loaded with high-quality meat and
+cheese. A satisfying meal for any big eater.",Raw Prime Meat,Hylian Rice,Hateno Cheese,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_S_03
+Gourmet Cheesy Meat Bowl,,"Top-quality meat and cheese piled high. But
+can it satisfy the ultimate gourmand?",Raw Gourmet Meat,Hylian Rice,Hateno Cheese,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_S_04
+Veggie Rice Balls,,"This home-style dish of Kakariko Village is
+stuffed with the bounty of the mountains.",Plant,Hylian Rice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_G_03
+Mushroom Rice Balls,,"The aroma of the mushrooms tickles your
+nose as you peel back the leafy wrapping.",Mushroom,Hylian Rice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_G_04
+Meaty Rice Balls,,"The sweet and spicy meat stuffed into these
+rice balls will keep you full for some time.",Meat,Hylian Rice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_G_15
+Seafood Rice Balls,,"Stuffed with aromatic seafood, the flavor can
+vary by ingredients but never disappoints.",Fish,Hylian Rice,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_G_02
+Veggie Porridge,,"Porridge made of easy-to-digest vegetables,
+fresh milk, and Hylian rice. An uplifting dish.",Plant,Hylian Rice,Fresh Milk,-,-,Cooking Pot,-,-,-,-,Item_Cook_R_02
+Wheat Bread,,"Made with wheat from the Tabantha region,
+this soft, springy bread smells just heavenly.",Tabantha Wheat,Rock Salt,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_M_01
+Melty Cheesy Bread,,"Is there anything better than a simple slice of
+bread baked with Hateno cheese on top?",Tabantha Wheat,Hateno Cheese,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_R_09
+Hylian Tomato Pizza,,"A pizza made with fresh Hylian tomato. Slices
+of melty Hateno cheese make it irresistible.",Hylian Tomato,Tabantha Wheat,Hateno Cheese,-,-,Cooking Pot,-,-,-,-,Item_Cook_R_04
+Meat Pie,,"You'll need an extra napkin to deal with this
+juicy pie of perfectly baked minced meat.",Meat,Tabantha Wheat,Goat Butter,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_I_04
+Fish Pie,,"A mainstay in any fisherman's home, the
+crisp crust pairs well with the fishy flavor.",Fish,Tabantha Wheat,Goat Butter,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_I_15
+Cheesy Tomato,,"A simple dish of Hylian tomato topped with
+delicious Hateno cheese. A perfect snack.",Hylian Tomato,Hateno Cheese,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_S_10
+Cheesy Baked Fish,,"Fresh seafood delightfully accented with a
+generous serving of Hateno cheese.",Fish,Hateno Cheese,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_R_10
+Omelet,,"This simple dish is common all over Hyrule.
+Simply fry egg until it's nice and plump.",Bird Egg,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_A_10
+Vegetable Omelet,,"This home-style dish mixes fluffy eggs with
+chopped vegetables for nutritional balance.",Plant,Bird Egg,Goat Butter,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_N_03
+Mushroom Omelet,,"The fluffy texture of this omelet is one of the
+great joys of this dish, as well as life.",Mushroom,Bird Egg,Rock Salt,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_N_04
+Cheesy Omelet,,"A satisfying dish with Hateno cheese poured
+over a tasty omelet.",Mushroom / Plant,Hateno Cheese,Bird Egg,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_R_01
+Hot Buttered Apple,,"The apple's sweetness has been enhanced
+by smothering it with butter and baking it.",Apple / Golden Apple,Goat Butter,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_I_07
+Honeyed Fruits,,"A dish that combines the thick sweetness of
+honey with the acidity of sour fruits.",Fruit,Courser Bee Honey,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_I_09
+Honeyed Apple,,"A juicy sweet-and-sour dish combining
+newly ripened apples with honey. ",Apple / Golden Apple,Courser Bee Honey,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_I_08
+Honey Candy,,"A natural sweet, brimming with nutrition and
+made by stewing fresh honey.",Courser Bee Honey,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_I_16
+Fried Bananas,,"Children love fried mighty bananas. The trick
+is frying them over very high heat.",Mighty Bananas,Tabantha Wheat,Cane Sugar,-,-,Cooking Pot,-,-,-,-,Item_Cook_I_13
+Egg Pudding,,"Made by cooking eggs and milk in a special
+mold, its soft texture melts in your mouth.",Bird Egg,Fresh Milk,Cane Sugar,-,-,Cooking Pot,-,-,-,-,Item_Cook_I_14
+Plain Crepe,,"The simplicity of this dish lets the flavor of its
+ingredients shine.",Tabantha Wheat,Fresh Milk,Bird Egg,Cane Sugar,-,Cooking Pot,-,-,-,-,Item_Cook_I_10
+Wildberry Crepe,,"Sweet, tart wildberries are folded into thin,
+springy dough to make this dessert.",Tabantha Wheat,Fresh Milk,Bird Egg,Cane Sugar,Wildberry,Cooking Pot,-,-,-,-,Item_Cook_I_11
+Honey Crepe,,"Honey has been drizzled over thin crepes to
+bring out their natural sweetness and flavor.",Tabantha Wheat,Fresh Milk,Bird Egg,Cane Sugar,Courser Bee Honey,Cooking Pot,-,-,-,-,Item_Cook_I_17
+Nutcake,,"Forest nuts give this cake a pleasant texture
+and a simple, understated sweetness.",Tabantha Wheat,Goat Butter,Cane Sugar,Nut,-,Cooking Pot,-,-,-,-,Item_Cook_I_12
+Fruitcake,,"Making ample use of fruits found all over
+Hyrule, this cake is a must for celebrations.",Dessert Fruit,Apple or Wildberry,Tabantha Wheat,Cane Sugar,-,Cooking Pot,-,-,-,-,Item_Cook_N_02
+Carrot Cake,,"Even those who don't like carrots tend to
+enjoy the mild sweetness of this cake.",Carrot,Tabantha Wheat,Cane Sugar,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_I_05
+Pumpkin Pie,,"The intense sweetness of pumpkins makes
+this dessert popular among children.",Pumpkin,Tabantha Wheat,Cane Sugar,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_I_06
+Cheesecake,,"A rich, moist, flavorful dessert with a
+Hateno cheese base.",Hateno Cheese,Tabantha Wheat,Cane Sugar,-,-,Cooking Pot,-,-,-,-,Item_Cook_Q_09
+Fruit Pie,,"A celebration isn't a celebration until this
+fruit-filled crust hits the table!",Fruit,Tabantha Wheat,Goat Butter,Cane Sugar,-,Cooking Pot,-,-,-,-,Item_Cook_I_01
+Apple Pie,,"The crispy, flaky pie crust and sweet apples
+are a match made in heaven.",Apple / Golden Apple,Tabantha Wheat,Goat Butter,Cane Sugar,-,Cooking Pot,-,-,-,-,Item_Cook_I_02
+Egg Tart,,"You'll know this simple dessert is done
+baking when it smells just delightful.",Bird Egg,Tabantha Wheat,Goat Butter,Cane Sugar,-,Cooking Pot,-,-,-,-,Item_Cook_I_03
+Milk,,"Make this by heating up some milk. Drink it
+before bed to ensure a good night's sleep.",Fresh Milk,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_K_09
+Noble Pursuit,,"A popular fruit juice in Gerudo Town. Its
+tropical flavor will cheer you right up.",Palm Fruit,Hydromelon,Voltfruit,Rock Salt,-,Cooking Pot,-,-,-,-,Item_Cook_R_03
+Monster Stew,,"Meat and seafood simmered in monster
+extract. A savory dish despite its ingredients.",Meat,Fish,Monster Extract,-,-,Cooking Pot,-,-,-,-,Item_Cook_L_01
+Monster Soup,,"Using monster extract as a base, this soup's
+distinct gaminess is either loved or hated.",Tabantha Wheat,Goat Butter,Fresh Milk,Monster Extract,-,Cooking Pot,-,-,-,-,Item_Cook_L_02
+Monster Curry,,"This unusual take on curry uses monster
+extract and doesn't rely only on spices.",Hylian Rice,Goron Spice,Monster Extract,-,-,Cooking Pot,-,-,-,-,Item_Cook_L_05
+Monster Rice Balls,,"Rice balls flavored with monster extract.
+Their unique aroma is not for everyone.",Hylian Rice,Rock Salt,Monster Extract,-,-,Cooking Pot,-,-,-,-,Item_Cook_L_04
+Monster Cake,,"It's said that once you have a taste of this
+cake, you'll never forget its sweetness.",Tabantha Wheat,Cane Sugar,Monster Extract,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_L_03
+Dark Stew,,"A daring dish of dark clump stewed with
+meat and fish. What a surprise!",Dark Clump,Meat,Fish,-,-,Cooking Pot,-,-,-,-,Item_Cook_S_05
+Dark Soup,,"A gooey soup built on stewed dark clump.
+One could get lost in its swirls and flavors.",Dark Clump,Tabantha Wheat,Goat Butter,Fresh Milk,-,Cooking Pot,-,-,-,-,Item_Cook_S_07
+Dark Curry,,"A hard-hitting curry with a dark-clump
+base, whose flavor is hard to hide.",Dark Clump,Goron Spice,Hylian Rice,-,-,Cooking Pot,-,-,-,-,Item_Cook_S_08
+Dark Rice Ball,,"A bold rice ball made with dark clump and
+Hylian rice. Its flavor is unforgettable!",Dark Clump,Rock Salt,Hylian Rice,-,-,Cooking Pot,-,-,-,-,Item_Cook_S_06
+Dark Cake,,"An unusual dark-clump cake with a unique
+flavor that may be impossible to fully describe.",Dark Clump,Cane Sugar,Tabantha Wheat,Goat Butter,-,Cooking Pot,-,-,-,-,Item_Cook_S_09
+Dubious Food,,"It's too gross to even look at. A bizarre smell
+issues forth from this heap. Eating it won't
+hurt you though...probably.",Invalid Recipe,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_O_01
+Rock-Hard Food,,"A dish gone awry after adding the wrong
+ingredient. Chewing your way through this
+won't be fun, but it will fill you up when
+you're between a rock and a hard place.",Ore,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_O_02
+Baked Apple,,"Direct heat has softened and sweetened
+this apple. Eat it to restore three-quarters
+of a heart.",Apple,-,-,-,-,Fire,-,-,-,3,Item_Roast_03
+Baked Golden Apple,,"A luxurious snack of golden apple roasted
+directly over a fire. The impeccable balance
+between acidity and sweetness gives it an
+otherworldly, delicious flavor.",Golden Apple,-,-,-,-,Fire,-,-,-,9,Item_Roast_59
+Charred Pepper,,"A pepper that's been gently caressed by an
+open flame. It's much less spicy now.",Spicy Pepper,-,-,-,-,Fire,-,-,9000,3,Item_Roast_13
+Roasted Hylian Tomato,,"A Hylian tomato toasted whole.
+It's juicy inside and will restore
+more health when consumed.",Hylian Tomato,-,-,-,-,Fire,-,-,-,6,Item_Roast_54
+Roasted Wildberry,,"This wildberry was prepared over an open
+flame to alter its sweet taste. It recovers
+more health than if eaten raw.",Wildberry,-,-,-,-,Fire,-,-,-,3,Item_Roast_07
+Roasted Voltfruit,,"This voltfruit from the Gerudo Desert has
+been charred to really bring out its sweet
+and sour flavors.",Voltfruit,-,-,-,-,Fire,-,-,9000,3,Item_Roast_08
+Roasted Hydromelon,,"This hydromelon was roasted whole for
+a very soft and flaky inner flesh with a
+rather intriguing flavor. Now this is your
+money melon!",Hydromelon,-,-,-,-,Fire,-,-,9000,3,Item_Roast_12
+Baked Palm Fruit,,"This palm fruit was broiled with direct heat,
+resulting in steamed flesh inside the rind.
+Best served at the moment the juices
+emerge while roasting.",Palm Fruit,-,-,-,-,Fire,-,-,9000,6,Item_Roast_10
+Roasted Mighty Bananas,,"These mighty bananas have been roasted
+whole. Cooking them through has turned the
+fruit inside into a sticky, rich, aromatic syrup.",Mighty Bananas,-,-,-,-,Fire,-,-,9000,3,Item_Roast_11
+Roasted Lotus Seeds,,"Flame-roasted fleet-lotus seeds.
+Peel the skin back to get to the soft
+and flaky center.",Fleet-Lotus Seeds,-,-,-,-,Fire,-,-,-,3,Item_Roast_16
+Roasted Mighty Thistle,,"Lightly toasted mighty thistle. It has no
+special effects, but now that it's been grilled,
+the pointy ends go down smooth.",Mighty Thistle,-,-,-,-,Fire,-,-,-,2,Item_Roast_27
+Roasted Armoranth,,"Simple, roasted armoranth. The heat has
+frayed the hard, chewy fiber just enough
+to make it easy to eat.",Armoranth,-,-,-,-,Fire,-,-,-,2,Item_Roast_28
+Roasted Swift Carrot,,"A fragrant swift carrot that's been
+lightly roasted. It doesn't have any
+special effects, but it will restore
+some health.",Swift Carrot,-,-,-,-,Fire,-,-,-,3,Item_Roast_24
+Roasted Endura Carrot,,"This flame-kissed endura carrot makes for a
+truly extravagant single-item dish. The fire
+really brought out its sweetness.",Endura Carrot,-,-,-,-,Fire,-,-,-,12,Item_Roast_50
+Baked Fortified Pumpkin,,"This fortified pumpkin has been roasted
+whole. The hard rind serves as a container
+for the steamed pumpkin flesh inside.",Fortified Pumpkin,-,-,-,-,Fire,-,-,9000,3,Item_Roast_15
+Baked Sun Pumpkin,,"A large, whole, roasted sun pumpkin. It lost
+its original effect in the baking process, but
+it's soft and tasty.",Sun Pumpkin,-,-,-,-,Fire,-,-,9000,3,Item_Roast_55
+Roasted Radish,,"A roasted hearty radish. Fragrant and
+warm, it has no special effect but will
+restore hearts.",Hearty Radish,-,-,-,-,Fire,-,-,-,15,Item_Roast_18
+Roasted Big Radish,,"A roasted big hearty radish.
+To take such a precious vegetable
+and put it to the fire is decadent
+in a way.",Big Hearty Radish,-,-,-,-,Fire,-,-,-,24,Item_Roast_19
+Toasty Skyshroom,,"A simply grilled skyshroom. The heat brings
+out its flavor and increases the amount of
+health it can restore.",Skyshroom,-,-,-,-,Fire,-,-,-,2,Item_Roast_56
+Toasty Hylian Shroom,,"A Hylian shroom toasted to perfection.
+The taste and fragrance are amplified,
+restoring more health to its consumer.",Hylian Shroom,-,-,-,-,Fire,-,-,-,3,Item_Roast_06
+Toasty Stamella Shroom,,"This toasted stamella shroom doesn't grant
+any special effects, but it will restore
+a bit of health.",Stamella Shroom,-,-,-,-,Fire,-,-,-,3,Item_Roast_04
+Toasty Rushroom,,"A rushroom that's been put to the torch.
+It may have lost its speedy properties, but
+at least it tastes good now.",Rushroom,-,-,-,-,Fire,-,-,-,3,Item_Roast_36
+Toasty Sunshroom,,"It's always a good idea to keep a fully
+roasted sunshroom or two on hand just
+in case. Eat it to recover a bit of health.",Sunshroom,-,-,-,-,Fire,-,-,-,3,Item_Roast_32
+Toasty Chillshroom,,"A fully roasted chillshroom. It's evenly
+toasted and tastes a lot better than
+when eaten raw. Eating it will restore
+a bit of health.",Chillshroom,-,-,-,-,Fire,-,-,-,3,Item_Roast_31
+Toasty Zapshroom,,"It's not very shocking that this fully roasted
+zapshroom is delicious. Eat it to recover
+a bit of health.",Zapshroom,-,-,-,-,Fire,-,-,-,3,Item_Roast_33
+Toasty Razorshroom,,"A razorshroom that's been exposed to
+direct heat. Its sharp exterior has softened
+considerably. Restores a bit of health.",Razorshroom,-,-,-,-,Fire,-,-,-,3,Item_Roast_37
+Toasty Ironshroom,,"An ironshroom exposed to an open
+flame. Its once-tough exterior is now crunchy
+and tasty. Restores a bit of health.",Ironshroom,-,-,-,-,Fire,-,-,-,3,Item_Roast_38
+Toasty Silent Shroom,,"A whole, toasted silent shroom. High heat
+may have destroyed its soft glow, but it's
+now fragrant and tasty.",Silent Shroom,-,-,-,-,Fire,-,-,-,3,Item_Roast_39
+Toasty Brightcap,,"A whole, roasted brightcap. Sure, it loses its
+bioluminescent enzymes, but it's softer and
+easier to chew.",Brightcap,-,-,-,-,Fire,-,-,-,3,Item_Roast_58
+Toasty Endura Shroom,,"A toasted endura shroom. It doesn't grant
+any special effects, but boy is it tasty!",Endura Shroom,-,-,-,-,Fire,-,-,-,6,Item_Roast_53
+Toasted Hearty Truffle,,"A hearty truffle toasted until its outside is
+crispy. It tastes great, but hearty truffles are
+far more effective when cooked in a recipe.",Hearty Truffle,-,-,-,-,Fire,-,-,-,12,Item_Roast_05
+Toasted Big Hearty Truffle,,"This big hearty truffle has been roasted
+whole. It gets full points for aroma and
+nutrition. Eat it to recover a lot of hearts.",Big Hearty Truffle,-,-,-,-,Fire,-,-,-,18,Item_Roast_49
+Seared Steak,,"Meat cooked over an open flame. Cooking it
+has increased its flavor and the number of
+hearts it provides.",Raw Meat,-,-,-,-,Fire,-,-,-,6,Item_Roast_01
+Seared Prime Steak,,"Prime meat cooked over an open flame.
+The outside is perfectly browned, while
+the inside is mouthwateringly juicy.",Raw Prime Meat,-,-,-,-,Fire,-,-,-,9,Item_Roast_40
+Seared Gourmet Steak,,"The highest quality gourmet meat, just
+kissed by an open flame. No additional
+seasonings have been added, which lets
+the natural flavor of the meat really shine.",Raw Gourmet Meat,-,-,-,-,Fire,-,-,900,18,Item_Roast_45
+Roasted Bird Drumstick,,"Bird drumstick that's been cooked to a crisp,
+skin and all. It's devoid of seasoning,
+but it has a simple, accessible taste.
+Restores more hearts than the raw variety.",Raw Bird Drumstick,-,-,-,-,Fire,-,-,-,6,Item_Roast_02
+Roasted Bird Thigh,,"Prime meat that's been flame-seared to
+perfection. The outside is crispy, but the
+inside is juicy. Eat it to recover hearts.",Raw Bird Thigh,-,-,-,-,Fire,-,-,-,9,Item_Roast_41
+Roasted Whole Bird,,"This whole bird has been tickled by an open
+flame to bring out its flavor. Less is more,
+as the lack of additional seasoning allows
+its natural taste to shine.",Raw Whole Bird,-,-,-,-,Fire,-,-,900,18,Item_Roast_46
+Roasted Arowana,,"A whole, grilled ancient arowana. The meat is
+cooked through and has reached a perfect
+tenderness.",Ancient Arowana,-,-,-,-,Fire,-,-,-,6,Item_RoastFish_16
+Roasted Bass,,"A bass that's been cooked whole over an
+open flame. It's flaky and savory smelling.
+Offers more hearts than the raw version.",Bass,-,-,-,-,Fire,-,-,-,6,Item_RoastFish_01
+Roasted Trout,,"This trout can be found all over Hyrule.
+Served river-to-table, it's simply cooked
+for a soft and flaky flesh with a mild flavor.",Trout,-,-,-,-,Fire,-,-,9000,6,Item_RoastFish_03
+Roasted Carp,,"Roasting this freshwater carp helped to
+suppress some of its stench, making it
+easier to stomach. You can really sink
+your teeth into the thick, meaty flesh.",Carp,-,-,-,-,Fire,-,-,9000,6,Item_RoastFish_07
+Roasted Porgy,,"The soft and fluffy texture of this seafaring
+fish has been enhanced by roasting it over
+an open fire. The crisp, aromatic skin is
+particularly delicious.",Porgy,-,-,-,-,Fire,-,-,9000,6,Item_RoastFish_09
+Roasted Cave Fish,,"A dish of grilled glowing cave fish. The fish's
+loose meat is nicely cooked to give it both
+excellent flavor and texture.",Glowing Cave Fish,-,-,-,-,Fire,-,-,-,6,Item_RoastFish_18
+Roasted Hearty Bass,,"An open flame has crisped the skin of this
+hearty bass to perfection. It's a sizable
+portion and contains just the right amount
+of fat to create an exceptionally tasty dish.",Hearty Bass,-,-,-,-,Fire,-,-,-,12,Item_RoastFish_02
+Roasted Hearty Salmon,,"A fresh hearty salmon roasted simply over
+an open flame without any additional
+flavoring. Not only is the skin edible but
+it gives off a rather nice aroma as well.",Hearty Salmon,-,-,-,-,Fire,-,-,9000,18,Item_RoastFish_04
+Blackened Crab,,"A whole crab slow-roasted in its shell. The
+soft, flaky flesh pairs nicely with the scent
+of the charred shell for a meal that assaults
+all five of your senses in all the best ways.",Crab,-,-,-,-,Fire,-,-,-,6,Item_RoastFish_15
+Sneaky River Escargot,,"Sneaky river snail roasted whole in its shell.
+The meat is soft and a little chewy. Pulling all
+the meat from the shell in one go fills you
+with a sense of accomplishment.",Sneaky River Snail,-,-,-,-,Fire,-,-,9000,6,Item_RoastFish_13
+Roasted Tree Nut,,"A tree seed roasted to amplify its fragrance.
+Gives more hearts than the raw variety.",Chickaloo Tree Nut,-,-,-,-,Fire,-,-,-,2,Item_Roast_52
+Roasted Acorn,,"An acorn cooked with direct heat.
+Its nutty aroma has been amplified.",Acorn,-,-,-,-,Fire,-,-,-,2,Item_Roast_48
+Campfire Egg,,"Roasting a bird egg whole in its shell like this
+helps retain water, making the egg a bit
+chewier than usual.",Bird Egg,-,-,-,-,Fire,-,-,-,6,Item_Roast_51
+Hard-Boiled Egg,,"A bird egg boiled using water from naturally
+occurring hot springs. It's popular among
+children and is easy to make.",Bird Egg,-,-,-,-,Hot Spring,-,-,-,6,Item_Boiled_01
+Icy Meat,,"A frozen slab of animal meat. If you can
+manage to chew it up and swallow it, you'll
+restore some hearts and lower your body
+temperature.",Raw Meat,-,-,-,-,Freeze,ResistHot,1,1800,4,Item_Chilled_01
+Icy Prime Meat,,"High-quality, frozen animal meat. Doesn't
+restore many hearts, but it can lower your
+body temperature.",Raw Prime Meat,-,-,-,-,Freeze,ResistHot,1,1800,6,Item_Chilled_02
+Icy Gourmet Meat,,"This raw gourmet meat has been frozen for
+easy traveling. It's kept its flavor through the
+freezing process. Eating it as is will provide
+a temporary boost to your heat resistance.",Raw Gourmet Meat,-,-,-,-,Freeze,ResistHot,1,1800,12,Item_Chilled_03
+Frozen Bird Drumstick,,"It's as hard as a rock but is supposedly
+edible. It restores a small number of hearts
+and has a cooling effect.",Raw Bird Drumstick,-,-,-,-,Freeze,ResistHot,1,1800,4,Item_Chilled_04
+Frozen Bird Thigh,,"High-quality, frozen bird meat. It's so solid it
+looks like it could be used as a weapon.
+Eating it will restore some hearts and cool
+you down, but don't break your teeth on it.",Raw Bird Thigh,-,-,-,-,Freeze,ResistHot,1,1800,6,Item_Chilled_05
+Frozen Whole Bird,,"This raw whole bird may have been
+frozen solid, but its flavor remains intact.
+Eating it will provide a temporary boost
+to your heat resistance.",Raw Whole Bird,-,-,-,-,Freeze,ResistHot,1,1800,12,Item_Chilled_06
+Frozen Arowana,,"Being frozen has condensed the taste
+of fish inside this arowana's body. Eating it
+will provide a temporary boost to your
+heat resistance.",Ancient Arowana,-,-,-,-,Freeze,ResistHot,1,1800,8,Item_ChilledFish_16
+Frozen Bass,,"That's one cold fish. Eating it won't restore
+many hearts, but it will lower your body
+temperature a bit.",Bass,-,-,-,-,Freeze,ResistHot,1,1800,8,Item_ChilledFish_01
+Frozen Trout,,"Being frozen has condensed the taste
+of fish inside this trout's body. Eating it
+will provide a temporary boost to your
+heat resistance.",Trout,-,-,-,-,Freeze,ResistHot,1,1800,4,Item_ChilledFish_03
+Frozen Carp,,"The crunchy, icy texture of this chilled
+carp is quite the delicacy. Eating it will
+temporarily increase your heat resistance.",Carp,-,-,-,-,Freeze,ResistHot,1,1800,4,Item_ChilledFish_04
+Frozen Porgy,,"This frozen porgy is the ideal snack for hiking
+through hot climates like the Gerudo Desert.
+Eating it provides a temporary boost to your
+heat resistance.",Porgy,-,-,-,-,Freeze,ResistHot,1,1800,4,Item_ChilledFish_05
+Frozen Cave Fish,,"A frozen glowing cave fish is just easier to
+eat than an unfrozen one. And, once eaten, it
+makes heat more bearable for a short time.",Glowing Cave Fish,-,-,-,-,Freeze,ResistHot,1,1800,8,Item_ChilledFish_18
+Frozen Hearty Bass,,"This hearty bass has been frozen by cold air.
+Eating it will be a challenge because it's
+frozen solid, but if you persevere, it will
+temporarily increase your heat resistance.",Hearty Bass,-,-,-,-,Freeze,ResistHot,1,1800,8,Item_ChilledFish_06
+Frozen Hearty Salmon,,"This salmon doesn't taste quite as fishy
+because the excess fat has been removed.
+It's exceptionally cold, so eating it provides
+a temporary boost to heat resistance.",Hearty Salmon,-,-,-,-,Freeze,ResistHot,1,1800,16,Item_ChilledFish_02
+Frozen Crab,,"Doesn't provide as much companionship as
+an unfrozen crab, but it won't spoil during
+your travels. Eat it to gain a temporary boost
+to your heat resistance.",Bright-Eyed Crab,-,-,-,-,Freeze,ResistHot,1,1800,8,Item_ChilledFish_07
+Frozen River Snail,,"The distinct glow of this sneaky river snail
+has diminished after it's been frozen, but
+eating it like this will provide a temporary
+increase to your heat resistance.",Sneaky River Snail,-,-,-,-,Freeze,ResistHot,1,1800,4,Item_ChilledFish_08
+Energizing Elixir,,"Restores your stamina, which is used when
+performing physical actions such as 
+climbing walls or swimming.",Enemy,Energetic Rhino Beetle / Restless Cricket,-,-,-,Cooking Pot,Stamina,1 - 2,-,-,Item_Cook_C_17_StaminaRecover
+Hasty Elixir,,"Grants a low-level haste effect, which
+boosts your movement speed while
+running, swimming, or climbing.",Enemy,Hot-Footed Frog / Hightail Lizard,-,-,-,Cooking Pot,SpeedUp,1 - 3,-,-,Item_Cook_C_17_AllSpeed
+Spicy Elixir,,"Grants a low-level warming effect, increasing
+your resistance to cold environments. Very
+useful when exploring snow-covered
+mountains.",Enemy,Summerwing Butterfly / Warm Darner,-,-,-,Cooking Pot,ResistCold,1 - 2,-,-,Item_Cook_C_17_ResistCold
+Chilly Elixir,,"Grants a low-level cooling effect, raising
+your body's resistance to heat. Crucial for
+long journeys through the desert.",Enemy,Winterwing Butterfly / Cold Darner,-,-,-,Cooking Pot,ResistHot,1 - 2,-,-,Item_Cook_C_17_ResistHot
+Electro Elixir,,"Grants a low-level resistance to electricity.
+Useful against enemies with electrical
+attacks.",Enemy,Thunderwing Butterfly / Electric Darner,-,-,-,Cooking Pot,ResistElectric,1 - 3,-,-,Item_Cook_C_17_ResistElectric
+Fireproof Elixir,,"Grants a fireproof effect, which prevents your
+body from catching fire.
+Be sure to pack this when venturing out
+to explore caves in Death Mountain.",Enemy,Smotherwing Butterfly / Fireproof Lizard,-,-,-,Cooking Pot,ResistBurn,1 - 2,-,-,Item_Cook_C_17_ResistBurn
+Mighty Elixir,,"Grants a low-level might effect, which
+strengthens your body and mind to boost
+your attack power with all weapons.",Enemy,Bladed Rhino Beetle,-,-,-,Cooking Pot,AttackUp,1 - 3,-,-,Item_Cook_C_17_AttackUp
+Tough Elixir,,"Grants a low-level toughness effect, which
+fortifies your bones to strengthen your
+defense. Best to use before facing off
+against hard-hitting enemies.",Enemy,Rugged Rhino Beetle,-,-,-,Cooking Pot,DefenseUp,1 - 3,-,-,Item_Cook_C_17_DefenseUp
+Sneaky Elixir,,"Grants a low-level stealth effect, which
+calms the nerves and silences footfalls.
+Allows you to move about undetected by
+monsters and animals.",Enemy,Sunset Firefly,-,-,-,Cooking Pot,Silent,1 - 3,-,-,Item_Cook_C_17_QuietnessUp
+Sticky Elixir,,"Grants a low-level slip resistance to keep you
+from slipping on wet surfaces. Its highly
+absorptive ingredients make it a must-have
+for sudden rainfalls.",Enemy,Sticky Frog / Sticky Lizard,-,-,-,Cooking Pot,ResistSlip,1 - 3,-,-,Item_Cook_C_17_NotSlippy
+Bright Elixir,,"Grants a low-level glow effect, illuminating
+your immediate surroundings. This faint
+luminescence is a boon in dark places.",Enemy,Deep Firefly,-,-,-,Cooking Pot,Light,1 - 3,-,-,Item_Cook_C_17_LightEmission
+Enduring Elixir,,"Restores stamina and temporarily extends
+your Stamina Wheel. The additional stamina
+will disappear as it's used.",Enemy,Tireless Frog,-,-,-,Cooking Pot,Guts,-,-,-,Item_Cook_C_17_ExStaminaMaxUp
+Hearty Elixir,,"Restores you to full health and increases
+your maximum hearts. The additional hearts
+are lost as you take damage.",Enemy,Hearty Lizard,-,-,-,Cooking Pot,MaxLife,-,-,All,Item_Cook_C_17_LifeMaxUp
+Fairy Tonic,,"This powerful recovery elixir harnesses the
+power of fairies. It has a sweet fragrance.",Fairy,-,-,-,-,Cooking Pot,-,-,-,-,Item_Cook_C_16
