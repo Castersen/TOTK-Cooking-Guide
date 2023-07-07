@@ -12,6 +12,7 @@ class CreativePage extends StatefulWidget {
 
 class _CreativePageState extends State<CreativePage> {
   final TextEditingController _searchController = TextEditingController();
+  final ScrollController _scrollController = ScrollController();
 
   String? searchQuery;
   String? materialCategoryQuery;
@@ -50,8 +51,10 @@ class _CreativePageState extends State<CreativePage> {
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 0, 111, 83),
       ),
-      body: Column(
-        children: [
+      body: SingleChildScrollView(
+        controller: _scrollController,
+        child: Column(
+          children: [
 
           // Recipe Section
           Container(
@@ -132,15 +135,20 @@ class _CreativePageState extends State<CreativePage> {
             ),
           ),
 
-          // Scrollable List of Recipes
-          Expanded(
-            child: MaterialsGrid(
+        // Scrollable List of Recipes
+        Container(
+          child: MaterialsGrid(
               searchQuery: searchQuery,
               selectedCategory: materialCategoryQuery,
               onMaterialTap: _addMaterialToRecipe,
-            ),
           ),
+        ),
+
+        Container(
+          height: 50,
+        ),
         ],
+      ),
       ),
     );
   }
@@ -253,18 +261,24 @@ class MaterialsGrid extends StatelessWidget {
                 || selectedCategory == 'All');
           }).toList();
 
-          // Build the grid view
-          return GridView.builder(
-            padding: const EdgeInsets.all(20),
-
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 5,
+          return SizedBox(
+            height: 500,
+            child: GridView.builder(
+              shrinkWrap: true,
+              physics: const ClampingScrollPhysics(),
+              padding: const EdgeInsets.all(20),
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 5,
+              ),
+              itemCount: filteredMaterials.length,
+              itemBuilder: (context, index) {
+                final TOTKMaterial material = filteredMaterials[index];
+                return MaterialGridItem(
+                  materials: material,
+                  onMaterialTap: onMaterialTap,
+                );
+              },
             ),
-            itemCount: filteredMaterials.length,
-            itemBuilder: (context, index) {
-              final TOTKMaterial material = filteredMaterials[index];
-              return MaterialGridItem(materials: material, onMaterialTap: onMaterialTap);
-            },
           );
         } else if (snapshot.hasError) {
           return const Center(

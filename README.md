@@ -1,6 +1,6 @@
 # Zelda TOTK Cooking Guide
 
-A comprehensive cooking guide app for The Legend of Zelda: Breath of the Wild's Trial of the Kitchen. The app allows you to explore various recipes, ingredients, and cooking tips to enhance your gameplay experience. It is built using Flutter framework.
+A comprehensive cooking guide app for The Legend of Zelda: TOTK. The app allows you to explore various recipes, ingredients, and cooking tips to enhance your gameplay experience. It is built using Flutter framework.
 
 ## Installation
 
